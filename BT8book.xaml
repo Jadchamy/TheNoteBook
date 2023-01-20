@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TheNoteBookv8.BT8book"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundImageSource="backgroundf">
+    <ContentPage.Content>
+        <StackLayout Padding="0">
+            <StackLayout Padding="110">
+            <Label
+                Text="LESSON OF THE DAY"
+                TextColor="#F2D985"
+                BackgroundColor="Transparent"
+                FontFamily="Cinzel"
+                FontSize="Medium"
+                FontAttributes="Bold"
+                VerticalOptions="StartAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                />
+            </StackLayout>
+            <StackLayout  Orientation="Horizontal" Spacing="0" Padding="5">
+
+                <Image
+                    Source="carre"
+                    BackgroundColor="Transparent"
+                    HeightRequest="20"
+                    WidthRequest="20"
+                    VerticalOptions="StartAndExpand"
+                    HorizontalOptions="CenterAndExpand"
+                    />
+
+                <Entry
+                    Keyboard="Chat"
+                    Placeholder="- - - - - - - - - - - - - -"
+                    x:Name="lesson1" PlaceholderColor="#F2D985" TextColor="WhiteSmoke"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="StartAndExpand"
+                    VerticalTextAlignment="Center"
+                    HorizontalTextAlignment="Center"
+                    HeightRequest="50"
+                    WidthRequest="100"
+                    BackgroundColor="Transparent"
+                    FontSize="Subtitle"
+                   />
+            </StackLayout>
+            <StackLayout  Orientation="Horizontal" Spacing="0" Padding="5">
+
+                <Image
+                    Source="carre"
+                    BackgroundColor="Transparent"
+                    HeightRequest="20"
+                    WidthRequest="20"
+                    VerticalOptions="StartAndExpand"
+                    HorizontalOptions="CenterAndExpand"
+                    />
+
+                <Entry
+                    Keyboard="Chat"
+                    Placeholder="- - - - - - - - - - - - - -"
+                    x:Name="lesson2" PlaceholderColor="#F2D985" TextColor="WhiteSmoke"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="StartAndExpand"
+                    VerticalTextAlignment="Center"
+                    HorizontalTextAlignment="Center"
+                    HeightRequest="50"
+                    WidthRequest="100"
+                    BackgroundColor="Transparent"
+                    FontSize="Subtitle"
+                   />
+            </StackLayout>
+            <StackLayout  Orientation="Horizontal" Spacing="0" Padding="5">
+
+                <Image
+                    Source="carre"
+                    BackgroundColor="Transparent"
+                    HeightRequest="20"
+                    WidthRequest="20"
+                    VerticalOptions="StartAndExpand"
+                    HorizontalOptions="CenterAndExpand"
+                    />
+
+                <Entry
+                    Keyboard="Chat"
+                    Placeholder="- - - - - - - - - - - - - -"
+                    x:Name="lesson3" PlaceholderColor="#F2D985" TextColor="WhiteSmoke"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="StartAndExpand"
+                    VerticalTextAlignment="Center"
+                    HorizontalTextAlignment="Center"
+                    HeightRequest="50"
+                    WidthRequest="100"
+                    BackgroundColor="Transparent"
+                    FontSize="Subtitle"
+                   />
+            </StackLayout>
+            <StackLayout  Orientation="Horizontal" Spacing="0" Padding="5">
+
+                <Image
+                    Source="carre"
+                    BackgroundColor="Transparent"
+                    HeightRequest="20"
+                    WidthRequest="20"
+                    VerticalOptions="StartAndExpand"
+                    HorizontalOptions="CenterAndExpand"
+                    />
+
+                <Entry
+                    Keyboard="Chat"
+                    Placeholder="- - - - - - - - - - - - - -"
+                    x:Name="lesson4" PlaceholderColor="#F2D985" TextColor="WhiteSmoke"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="StartAndExpand"
+                    VerticalTextAlignment="Center"
+                    HorizontalTextAlignment="Center"
+                    HeightRequest="50"
+                    WidthRequest="100"
+                    BackgroundColor="Transparent"
+                    FontSize="Subtitle"
+                   />
+            </StackLayout>
+            <StackLayout Padding="0,170,0,0" VerticalOptions="EndAndExpand">
+                <ImageButton Source="save01"
+                             BackgroundColor="Transparent"
+                             x:Name="savetotd"
+                             Clicked="SaveLessonsclicked"
+                             HeightRequest="60"
+                             WidthRequest="150" 
+
+                         />
+
+            </StackLayout>
+            <StackLayout>
+                <CollectionView x:Name="collectionView">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            
+                                <Label/>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,1532 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TheNoteBookByRibal.Description"
+             NavigationPage.HasNavigationBar="False"
+            BackgroundColor="Black">
+    <ContentPage.Content>
+        <StackLayout Padding="0,0,0,0">
+            <StackLayout  Padding="0,40,0,10"> 
+                <Label
+                Text="Description"
+                    TextDecorations="Underline"
+                TextColor="#F2D985"
+                BackgroundColor="Transparent"
+                FontFamily="Cinzel"
+                FontSize="Title"
+                FontAttributes="Bold"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                />
+            </StackLayout>
+
+            <ScrollView HeightRequest="700" WidthRequest="300" >
+                <StackLayout>
+                    
+                
+                <Label
+                   
+                TextColor="#F2D985"
+                BackgroundColor="Transparent"
+                FontFamily="Cinzel"
+                FontSize="Large"
+                FontAttributes="Bold"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Text="Why?"
+
+            />
+                <Label
+                    
+                TextColor="#F2D985"
+                BackgroundColor="Transparent"
+                FontFamily="Cinzel"
+                FontSize="Medium"
+                FontAttributes="Bold"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Text="The daily process notebook
+Having a message of achievement is greater than having goals. What makes us individually special is our message, not our goals. Having a goal to be for example-rich, to own a luxury home and cars or a good position, etc. won't make you special because a lot of people already are rich and have whatever you wish, even though, goals bring temporary satisfaction nothing more. Having a message means you are always in the process of excelling, always in the process of development and evolution in all your interests.  
+God created us in his image, which means we are born to create a meaningful message in this beautiful life. A message that makes sense of our existence, that makes us special and makes us always satisfied. Through your message, you will develop your identity, and you will have adaptability and freedom.
+To discover your identity and your message is hard, but the harder is the continuity for it. That's why this daily process notebook is the best thing to rely on for not stopping or surrendering the continuity once you are ready to have your dream life that you always dreamt about.
+ The daily process notebook is a healthy routine and habit that every human should thrive on. The benefits of it are wide as; freeing your mental energy of not thinking so much and giving you missions to do. It is a sense of ownership of your lifestyle. It makes you satisfied every single day because of the things to do every day for your message. It makes you less anxious, more adaptable, it makes you your personal life coach and motivates yourself, it will help you to achieve good things which can improve your life, it develops your self-identity and your health, etc. 
+ 
+This notebook can give you self-realization, adaptability, freedom, and flexibility. Search about these words."
+
+            />
+                    <Label
+                   
+                TextColor="#F2D985"
+                BackgroundColor="Transparent"
+                FontFamily="Cinzel"
+                FontSize="Large"
+                FontAttributes="Bold"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Text="Content"
+
+            />
+                    <Label
+                   
+                TextColor="#F2D985"
+                BackgroundColor="Transparent"
+                FontFamily="Cinzel"
+                FontSize="Medium"
+                FontAttributes="Bold"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Text="This daily process notebook is simple and multifunctional at the same time. The minimalist design of the template is clear and easy to fill. It is available in two sizes; 6 months and 1-year notebook. 
+
+The daily process notebook contains;
+
+Date
+Sleeping hours: Try to have at least 8 hours of healthy sleep a day.
+Water: An average person should drink at least 1.5 -2 liters of fresh water per day.
+Today's Goals: Try to create challenges for you each day.
+To-Do List and Schedule: Make a list of things you must do today. Plan your daily pursuits in accordance with the activity timetable. Plan your day hour by hour and organize your scheduled meetings and appointments.
+Meal: Healthy eating is a pledge to a healthy life. Breakfast, lunch, dinner and snacks.
+Daily Exercise - Complete your workout plan for bodybuilding at the gym or just your daily exercise routine at home.
+The lesson of the day, Lesson learned things you have learned for today. Today was - write down some important things for you that happened today.
+Title of the day: Brainstorm to choose the interest of your day.
+Important Notes - Keep your notes throughout the day.
+Saying/quotes every 30 days.
+World map with names of the countries"
+
+            />
+                    <Label
+                   
+                TextColor="#F2D985"
+                BackgroundColor="Transparent"
+                FontFamily="Cinzel"
+                FontSize="Large"
+                FontAttributes="Bold"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Text="Questions"
+
+            />
+                    <Label
+                   
+                TextColor="#F2D985"
+                BackgroundColor="Transparent"
+                FontFamily="Cinzel"
+                FontSize="Medium"
+                FontAttributes="Bold"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Text="Ask and answer yourself these three questions:
+ 
+1-Where have you been?
+2- Why are you here?
+3-And where are you going?                       
+"
+
+            />
+                    <Label     
+                TextColor="#F2D985"
+                BackgroundColor="Transparent"
+                FontFamily="Cinzel"
+                FontSize="Large"
+                FontAttributes="Bold"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Text="Your message"/>
+                    <Label
+                   
+                TextColor="#F2D985"
+                BackgroundColor="Transparent"
+                FontFamily="Cinzel"
+                FontSize="Medium"
+                FontAttributes="Bold"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Text="Your life is your message to the world, make it inspiring.
+Your message is the center of your being and existence. It is the center of your actions and the center of your focus. Your message is not a sentence to be written because it is not an analytical process. It is an emotional process related to your soul and consciousness.
+Your message is your passion in life. It is the place where you feel inspired and makes your living interesting. It is the place that your heart appeals toward.
+Your life is like a white canvas and you are the artist that is always passionate about enjoying the process of adding your touches and patterns to accomplish your creation. Your creation makes you special, proud, and blessed by having a wonderful piece of art which is your path that inspires others. A piece of art through it you are making life, not a living.
+Write down your message in life
+"
+
+            />
+                    <Label     
+                TextColor="#F2D985"
+                BackgroundColor="Transparent"
+                FontFamily="Cinzel"
+                FontSize="Large"
+                FontAttributes="Bold"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Text="Goals Titles"/>
+                    <Label     
+                TextColor="#F2D985"
+                BackgroundColor="Transparent"
+                FontFamily="Cinzel"
+                FontSize="Medium"
+                FontAttributes="Bold"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Text="1)
+                      2)
+                      3)
+                      4)"/>
+                    <Label     
+                TextColor="#F2D985"
+                BackgroundColor="Transparent"
+                FontFamily="Cinzel"
+                FontSize="Large"
+                FontAttributes="Bold"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Text="Date"/>
+                    <Label     
+                TextColor="#F2D985"
+                BackgroundColor="Transparent"
+                FontFamily="Cinzel"
+                FontSize="Medium"
+                FontAttributes="Bold"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Text="1) Review.
+ Dates make it easy to review some important points and make it faster to check up on your written notes and whatever you have experienced.
+2) Time frame.
+All goals that are set should be timely, meaning that there is a set deadline attached to the goal. This gives a person motivation to meet the goal within a certain time period. It also provides the information needed to develop an action plan so that the goal can be met within the stated time frame. 
+3) Comparing.
+To compare the development 'how you used to be 2 or 3 months ago and how you become'.
+4) Types of writing dates.
+There are several different ways to write the date in English. They vary from formal to informal, and there are differences between British and American English. The following table shows a few typical formats.
+"/>
+                    <Label     
+                TextColor="#F2D985"
+                BackgroundColor="Transparent"
+                FontFamily="Cinzel"
+                FontSize="Large"
+                FontAttributes="Bold"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Text="Sleeping hours"/>
+                    <Label     
+                TextColor="#F2D985"
+                BackgroundColor="Transparent"
+                FontFamily="Cinzel"
+                FontSize="Medium"
+                FontAttributes="Bold"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Text="Sleep is a necessary activity in every living creature's life. We all need rest to perform our daily tasks and maintain our energy and health. Our brain needs replenishment after a certain amount of time, and sleeping helps in this process. Sleep aids in keeping a person's mental state intact, and a person cannot survive long in the absence of sleep. 
+For students, the significance of sleep becomes manifold. The age of an individual influences sleep requirements. Babies and toddlers may sleep up to 18 hours a day, while for adults, a good sleep of 6 hours can be sufficient. For school-going students and scholars, a good 8 to 9 hours of sleep is recommended daily.
+1) Better mental health.
+A person's mood is significantly affected by their sleeping patterns. Lack of sleep can make a person frustrated and irritated. Sleep is crucial to keep the performance of the person at peak.
+2) Rapid muscle toning.
+Sleep helps in muscle building and relaxation of the muscles. Snoozing not only relaxes our mind but also provides rest to the body. After a good workout, the body needs time for preparation, and this helps in toning the body. Therefore, rigorous exercise is not the only aspect of body and muscle building.
+ 
+3) Safer driving.
+Driving is an activity that demands the utmost attention and alertness. Sleepy and tired people have a higher chance of getting into driving accidents. The law highly condemns intoxication, and lack of sleep relays the same effects on the person. Always make sure that you take proper rest before long drives. Lack of sleep can also make a person hallucinate.
+ 
+4) Improved activity.
+Lack of sleep also hampers the productivity of an individual. Insufficient sleep makes a person very tired. It also affects immunity and increases the chances of a person falling sick. Students who do not get proper sleep a day before the exam have a higher chance of making mistakes in the paper. The concentration of the person gets affected, and the critical thinking abilities also decrease.
+5) Lower stress levels.
+Sleep is a great stress reliever that drains off all the worries from a person's minds. When we are tired, we tend to overthink things, and this leads to anxiety and stress. Sleep helps in refreshing our mind and eliminating unnecessary thoughts. Stress can be caused due to a variety of reasons, and the rest is among the prominent ones.
+6) Reduced risk of diabetes.
+Sleep has significant implications on the health of the person. A survey conducted indicated that the people who sleep 8 hours every day are 1.7 times less likely to develop diabetes than the people who sleep 6 hours or less.
+7) Healthier skin.
+skincare routines at night time before going to sleep can be very beneficial. Our skin heals during the night and works on the damage caused by the harmful ultraviolet rays, pollution, chemicals, and signs of aging. People who have insomnia look older and have several skin problems. Hence, sleep is vital for radiant and healthy skin.
+ 
+8) Enhanced memory.
+Sleep enhances and improves brain functionality. If you want to improve your memory, then sleep adequately. A brain also needs rest after a long tiring day, and sleep is necessary for cell regeneration in the brain. The brain functions even while sleeping.
+9) Fewer headaches.
+If you are recently suffering from headaches and migraines, then you might want to check your sleep schedule. Chronic problems can also be a result of insufficient or improper sleep. The quality of sleep also matters. Many times such pains and discomfort are connected to insomnia.
+10) Stronger immune system.
+The immunity of a person also gets affected due to the lack of sleep. Our body's capability of fighting various pathogens like viruses and bacteria is known as immunity. Lack of sleep makes us more susceptible to catching multiple diseases.
+"/>
+                    <Label     
+                TextColor="#F2D985"
+                BackgroundColor="Transparent"
+                FontFamily="Cinzel"
+                FontSize="Large"
+                FontAttributes="Bold"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Text="Water"/>
+                    <Label     
+                TextColor="#F2D985"
+                BackgroundColor="Transparent"
+                FontFamily="Cinzel"
+                FontSize="Medium"
+                FontAttributes="Bold"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Text="Around 60 percent of the body is made up of water, and around 71 percent of the planet's surface is covered by water.
+1) It lubricates the joints.
+Cartilage, found in joints and the disks in the spine, contains around 80 percent of water. Long-term dehydration can reduce the joints' shock-absorbing ability, leading to joint pain.
+2)  It forms saliva and mucus
+Saliva helps us digest our food and keeps the mouth, nose, and eyes moist. This prevents friction and damage. Consumed instead of sweetened beverages, it can also reduce tooth decay.
+3) It delivers oxygen throughout the body.
+Blood is more than 90 percent water; it carries oxygen to different parts of the body.
+4)  It boosts skin health and beauty.
+When dehydrated, the skin can become more vulnerable to skin disorders and premature wrinkling.
+5) It cushions the brain, spinal cord, and other sensitive tissues.
+Dehydration can affect brain structure and its function. It is also involved in the production of hormones and neurotransmitters. Prolonged dehydration can lead to problems with thinking and reasoning.
+6) It regulates body temperature.
+Water that is stored in the middle layers of the skin comes to the skin's surface as sweat when the body heats up. As it evaporates, it cools the body. 
+Some scientists have suggested that  when there is too little water in the body, heat storage increases and the individual is less able to tolerate heat strain.
+7) The digestive system depends on it.
+The bowel needs water to work properly. Dehydration can lead to digestive problems, constipation, and an overly acidic stomach. This increases the risk of heartburn and stomach ulcers.
+8) It flushes body waste.
+Water is needed in the processes of sweating and removal of urine and feces.
+9) It helps maintain blood pressure.
+A lack of water can cause blood to become thicker, increasing blood pressure.
+10) The airways need it.
+When dehydrated, airways are restricted by the body in an effort to minimize water loss. This can make asthma and allergies worse.
+11) It makes minerals and nutrients accessible.
+These dissolve in water, which makes it possible for them to reach different parts of the body.
+12) It prevents kidney damage.
+The kidneys regulate fluid in the body. Insufficient water can lead to kidney stones and other problems.
+13) It boosts performance during exercise.
+Some scientists have proposed that consuming more water might enhance performance during strenuous activity.
+14) Weight loss.
+Water may also help with weight loss, if it is consumed instead of sweetened juices and sodas. 'Preloading' with water before meals can help prevent overeating by creating a sense of fullness.
+15) It reduces the chance of a hangover.
+When partying, unsweetened soda water with ice and lemon alternated with alcoholic drinks can help prevent overconsumption of alcohol.
+16) 8 glasses a day keeps the doctor away.
+Water improves your immune system. With a little lemon, it can also help prevent respiratory disease, intestinal issues as well as heart attacks.
+"/>
+                    <Label     
+                TextColor="#F2D985"
+                BackgroundColor="Transparent"
+                FontFamily="Cinzel"
+                FontSize="Large"
+                FontAttributes="Bold"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Text="Today's goals"/>
+                    <Label     
+                TextColor="#F2D985"
+                BackgroundColor="Transparent"
+                FontFamily="Cinzel"
+                FontSize="Medium"
+                FontAttributes="Bold"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Text="What are the benefits of goal setting?  Setting goals creates a long-term vision and provides short-term measurable goals to focus on each day.  Goals provide the framework to organize your time, energy and focus each day. Goal setting helps you align focus with your daily actions, as you have a clear destination to reach and a roadmap to reach your goals.  Setting goals helps you clarify what matters and gives you a clear path and plan to pursue those goals.
+People who set goals are more productive, more creative, have more confidence, and are less stressed. Understanding the benefits of goal setting improves your ability to set goals and achieve your goals.
+ 
+1) Provide direction.
+Goals give you direction, purpose, and a destination to reach.  Goals motivate you to take action and provide a clear roadmap and path to follow each day towards goal achievement.
+The benefit of goal setting means you understand what is most important to you and provide a clear timeline and measurements for goal achievement.
+ 
+2) Give you focus.
+Goals provide a clear focus for your time and energy.  Having goals sets out your intentions and desires of what you want your life to look like in the future.
+Having goals give you a clear daily focus which helps you achieve better and faster results.  Goals set your intentions and desires about what matters to you.
+Without clarity on your goals, you can lose focus.  Goals motivate you to take action every day to achieve the things that matter most to you.  Having goals gives you a clear plan and path to follow every day, which eliminates distraction, overwhelm, and procrastination.
+ 
+3)  Greater productivity.
+Goals provide specific measurements and achievements to work towards each day, which increases productivity.  Setting goals provides the framework to make measurable progress.  
+ 
+4)  Give you clarity.
+Goals give you clarity on what's most important to you in life.  Having goals clarifies the future you want to create for yourself with measurements and deadlines.
+Goal setting gives you control of your future and makes it easier to capture new opportunities.
+ 
+5)  More time freedom.
+Goals provide the emotional and intellectual engagement on the outcomes you want to achieve.  As a result, you are committed to taking daily action.  
+Goals help you clarify where you are now and where you want to be. Setting goals helps you visualize your future and provide the framework for achieving your goals.  
+ 
+6)  Provide accountability.
+Goals give you greater accountability.  Having a goal ensures you are crystal clear on what you want to achieve and the importance of achieving that goal.
+This emotional engagement with achieving your goals helps you stay accountable through daily actions.  
+
+
+7)  Better decision making.
+Goals help create better boundaries around your time, energy, and focus, which improves decision-making. 
+When opportunities come up, having clear goals, allows you to make decisions about whether to take action or not.  
+ 
+8) Give you control over your future.
+Goals help you take control over your future.  Without goals, you lack direction and give the power to other people to choose how you should spend your time and what you should focus on.  Goals help you take control over the future you want for yourself, which ensures you make better decisions in the present.
+ 
+9) Provide motivation.
+Goals increase excitement and inspiration.  Having goals gives you that added bit of motivation you may need when you don't feel motivated or experiencing  some setbacks.
+When your goals are exciting you are motivated to take action, even when you don't feel like it.  
+ 
+10) Give you inspiration.
+Goals motivate and inspire you to take action every day.  Measurable goals give you a framework to see the progress you're making every day towards achieving your goals.  Without clear measurements, you won't have a clear destination or know when you've reached it.
+Making progress on your goals builds momentum, motivation, and excitement.  When you see how far you've come towards your goal achievement, you're even more motivated to carry on.
+"/>
+                    <Label     
+                TextColor="#F2D985"
+                BackgroundColor="Transparent"
+                FontFamily="Cinzel"
+                FontSize="Large"
+                FontAttributes="Bold"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Text="To do list"/>
+                    <Label     
+                TextColor="#F2D985"
+                BackgroundColor="Transparent"
+                FontFamily="Cinzel"
+                FontSize="Medium"
+                FontAttributes="Bold"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Text="There are many ways of keeping organized – from a hastily jotted sticky note to a highly trained personal assistant. But somewhere in between those two extremes lies a tried and true method: to-do lists. To-do lists have been around for centuries, and for good reason. They are easy, intuitive methods of keeping on task so you can get things done.
+That said, not all to-do lists are created equal. Some people prefer a simple bullet point task list while others dive right into bullet journaling. But at the heart of every list style lies a key benefit. Here are the benefits you would miss out on if you are not list-keeping: 
+Prioritizing.
+A to-do list isn't just a rundown of everything you want to get done – that's only step one. The real benefit is when you see everything you want to do and can isolate what you need to complete.
+ 
+Surprisingly, flexibility.
+While writing a list holds you accountable to a certain agenda, it also prepares you for when something unexpected comes up. If a task is completed more quickly than imagined or a meeting gets canceled, you already know what to work on next. 
+Focusing your mind.
+Once you've written a task on your to-do list, it can't be forgotten. That clears up your mind to focus on the specific issue at hand, and you can come back to what you've written down later.
+
+Better memory.
+Once you've written something down, studies show you are more likely to remember it. The physical act of writing compels you to think about something, which basically tells your brain, 'I have to remember this because I'm putting effort into it.'
+
+Moving forward.
+People remember an uncompleted task better than a completed one. Focusing on unfulfilled goals can distract you from what you're currently trying to achieve. By using a to-do list you can physically cross items off the list, thereby completing them and letting yourself move on. Or if you do need to take a break before finishing something, you can move it to later in the priority list which is still better than leaving it open.
+
+Feeling accomplished.
+If nothing else, crossing an item off a list just feels good. In fact, we've been known to add surprise tasks or meetings to a list just to cross them off – they've already been completed but we want to see them crossed off. There's just something about seeing all you have accomplished that gives you the confidence to dive into what comes next.
+
+Strategic scheduling.
+Writing out all your tasks can help you see which ones can be grouped together. If you ever feel like you're jumping all over the place throughout your day, grouping similar jobs can help your day run far more smoothly.
+"/>
+                    <Label     
+                TextColor="#F2D985"
+                BackgroundColor="Transparent"
+                FontFamily="Cinzel"
+                FontSize="Large"
+                FontAttributes="Bold"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Text="Meals"/>
+                    <Label     
+                TextColor="#F2D985"
+                BackgroundColor="Transparent"
+                FontFamily="Cinzel"
+                FontSize="Medium"
+                FontAttributes="Bold"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Text="Food journaling, or food tracking, is a method of mindful eating. It can help you remember what you have eaten that day. If you are also tracking calories, you can see where you can improve if you are trying to achieve a goal. It will let you see if you are eating too much or not enough. It will allow you to see what time of the day you typically get hungry and  help you adjust your eating schedule. It can help you realize if you are eating out of boredom rather than hunger.
+If you want to reach your ideal weight, you should be aware of what you are eating day in and day out. The best way to do this is to write down what you eat: both the small snacks between meals as well as the liquid calories – simply jot down everything.
+ 
+Weight loss works best with food tracking apps you can use anytime, anywhere. Food tracking means keeping a record of all your food, meals and beverages, too. At first, it might seem to be a lot of work logging what you eat. But it's worth it.  
+Here are 9 reasons why you should keep a food diary:
+1) Food tracking creates awareness.
+ It's sometimes hard to eat healthy on a busy schedule. At the end of the day, there's usually not much time to reflect on all the food you ate throughout the day. But if you take the time to do it once, you'll soon realize that you probably consumed way more calories than you wanted to.
+2) Keeping a food diary makes you more accountable.
+If you want to lose weight, a food tracking app is the right choice for you: if you consistently keep track of everything, you might think twice next time before putting certain foods into your mouth.
+3) You learn more about your eating habits.
+If you write down everything you eat during the day, you will quickly get a sense of what your diet is really made of: how much protein, carbohydrates and fat you are consuming. This information can help you change your diet to reach your goal.
+ 
+4) Food tracking leads to 'aha moments'.
+On the days when you track your food, you will experience numerous 'aha moments': before you started writing things down, maybe you weren't aware of how many carbohydrates or how much fat you were eating per day.
+5) You learn how many calories you should eat per day.
+Do you know how many calories you should be eating per day? If you want to lose weight, all you have to do is look at your food diary to find out where you can cut out the most calories with the least effort. Food tracking can also help you if you are looking to gain healthy weight: maybe you never stopped and asked yourself if you were eating enough calories.
+
+
+7) A food diary shows your progress.
+The longer you track with your app, the more information you will have at your disposal. You can look at the entries for the last few days and weeks and see what is working well (and what isn't).  Keep track of the progress you make – it will help you stick with your healthy diet and reach your goal!
+
+
+8) You feel fitter and full of energy.
+You will see – once you get a sense of which foods are healthy and good for you, you will feel better and above all fitter. 
+
+9) Better nutrition.
+Keeping track of your every meal will reveal more than just calorie intake and food intolerances; it can also show whether you are eating enough of each food group. Keeping a food diary will allow you to analyze what foods you are not eating enough of, or which ones you're eating too much.
+"/>
+                    <Label     
+                TextColor="#F2D985"
+                BackgroundColor="Transparent"
+                FontFamily="Cinzel"
+                FontSize="Large"
+                FontAttributes="Bold"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Text="Workout"/>
+                    <Label     
+                TextColor="#F2D985"
+                BackgroundColor="Transparent"
+                FontFamily="Cinzel"
+                FontSize="Medium"
+                FontAttributes="Bold"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Text="Want to feel better, have more energy and even add years to your life? Just exercise. The health benefits of regular exercise and physical activity are hard to ignore. Everyone benefits from exercise, regardless of age, sex or physical ability. Check out these seven ways that exercise can lead to a happier, healthier you:
+1) Exercise controls weight.
+Exercise can help prevent excess weight gain or help maintain weight loss. When you engage in physical activity, you burn calories. The more intense the activity, the more calories you burn.
+2) Exercise combats health conditions and diseases.
+Worried about heart disease? Hoping to prevent high blood pressure? No matter what your current weight is, being active boosts high-density lipoprotein (HDL) cholesterol, the 'good' cholesterol, and it decreases unhealthy triglycerides. This one-two punch keeps your blood flowing smoothly, which decreases your risk of cardiovascular diseases.
+Regular exercise helps prevent or manage many health problems and concerns, including:
+Stroke
+Metabolic syndrome
+High blood pressure
+Type 2 diabetes
+Depression
+Anxiety
+Many types of cancer
+Arthritis
+Falls
+
+3)  Exercise improves mood.
+ Physical activity stimulates various brain chemicals that may leave you feeling happier, more relaxed and less anxious.
+You may also feel better about your appearance and yourself when you exercise regularly, which can boost your confidence and improve your self-esteem.
+4) Exercise boosts energy.
+Regular physical activity can improve your muscle strength and boost your endurance.
+Exercise delivers oxygen and nutrients to your tissues and helps your cardiovascular system work more efficiently
+5) Exercise promotes better sleep.
+Struggling to snooze? Regular physical activity can help you fall asleep faster, get better sleep and deepen your sleep. Just don't exercise too close to bedtime, or you may be too energized to go to sleep.
+6) Exercise puts the spark back into your sex life.
+Do you feel too tired or too out of shape to enjoy physical intimacy? Regular physical activity can improve energy levels and increase your confidence about your physical appearance, which may boost your sex life.
+But there's even more to it than that. Regular physical activity may enhance arousal for women. And men who exercise regularly are less likely to have problems with erectile dysfunction than are men who don't exercise.
+7) Exercise can be fun … and social!
+Exercise and physical activity can be enjoyable. They give you a chance to unwind, enjoy the outdoors or simply engage in activities that make you happy. Physical activity can also help you connect with family or friends in a fun social setting.
+8) Helps fight depression.
+Research shows that for mild or moderate cases of depression, exercise can be an effective treatment.
+Exercising increases your brain's sensitivity to serotonin and norepinephrine, which ease feelings of depression..
+One study showed that just six weeks of yoga (in addition to standard treatment) was enough to reduce depression and even anxiety. Yoga and Pilates also focus on breathing exercises, which can reduce stress and promote relaxation.
+9) Helps maintain strong muscles and bones.
+As we get older, we lose muscle mass and function. But exercising regularly may reduce muscle loss and maintain strength. As we exercise, our bodies release hormones that help muscles absorb amino acids and boost muscle growth.
+And according to a study,  exercising while we're young helps build bone density, which can help prevent osteoporosis as we age.
+10) Boosts your brain health.
+Exercise is beneficial for maintaining brain health for everyone, but even more for those who are at risk for developing dementia and Alzheimer's disease.
+Movement promotes cardiovascular health, improves blood flow to the brain and reduces inflammation. It also stimulates the production of hormones that enhance the growth of brain cells.
+"/>
+                    <Label     
+                TextColor="#F2D985"
+                BackgroundColor="Transparent"
+                FontFamily="Cinzel"
+                FontSize="Large"
+                FontAttributes="Bold"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Text="Yoga"/>
+                    <Label     
+                TextColor="#F2D985"
+                BackgroundColor="Transparent"
+                FontFamily="Cinzel"
+                FontSize="Medium"
+                FontAttributes="Bold"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Text=" What are the benefits of practicing yoga? Put simply, the reason so many people are falling in love with yoga is because they are discovering how wonderful it is for your mind, body and spirit. But in case you're not yet convinced, here are ten reasons why yoga is incredible:
+1) Yoga increases your flexibility.
+Yoga postures and sequences help to increase the body's range of motion. The mindful approach of yoga helps to ensure that stretching is done safely, allowing the nervous system to release the muscles into gentle, effective stretches. Releasing tension in the muscles can also help them to relax and let go, helping your body to open up more.
+
+2) Yoga helps you to build strength. 
+Although many people overlook this one, seeing only yoga's benefits for flexibility, yoga is actually a fantastic strengthening practice.. Yoga helps to strengthen the muscles that support the body's weight, leading to functional strength. It is also fantastic for building core strength. 
+
+3) Yoga improves your posture. 
+Our posture can often deteriorate as we age, in a large part due to our habitual movement patterns during the day. For instance if you spend a long time working at a computer, you may find yourself vulnerable to slumping with rounded shoulders. Over time the back muscles become weak, and the chest muscles become tight, exacerbating the rounded posture. Yoga can help you to stretch out the chest and strengthen the muscles of the back. It can also make you far more aware of your body and posture, so that you find yourself automatically self-correcting to come into a healthier alignment throughout the day.
+
+4) Yoga helps to keep your joints healthy. 
+Yoga will strengthen the muscles around the joints, helping to stabilize them. By moving the joints in their full range of motion, yoga can help to promote better joint health. The mobilization of the joints improves the flow of synovial fluid, which lubricates them, allowing for smooth and healthy movement of the bones. Yoga can even help those with more serious joint problems such as arthritis, improving physical function and reducing pain.
+5) Yoga is a powerful mindfulness practice. 
+Yoga is about uniting the mind, body and breath. In doing this it brings you into the present moment. Mindfulness has proven benefits for a whole range of health conditions, and is particularly effective in promoting positive mental health. In particular, mindfulness practices have been shown to strengthen the immune system, improve social relationships and reduce depression, anxiety and neuroticism.
+6) Yoga reduces stress. 
+The focus, centering and breathing of yoga all help to reduce stress and can be the ideal antidote to a hectic modern lifestyle. It is also due to the positive impact of increasing activity levels and exercise, along with the relaxation and reduction of physical tension that yoga brings. Yoga can leave you feeling relaxed and refreshed, physically, mentally and energetically.
+7) Yoga lowers blood pressure. 
+As well as reducing stress, which can be a contributing factor to high blood pressure, several aspects of yoga practice are thought to directly improve blood pressure. The relaxation and deep breathing of yoga can reduce high blood pressure even after the practice is finished.
+8) Yoga helps you to make healthier life choices. 
+There is a story in yoga about a student who asked their yoga teacher whether their smoking habit would interfere with their yoga. The teacher smiled and replied. 'No, but your yoga will interfere with your smoking.' Whether or not that was the case, one of the great things about yoga is that it helps you to tune into what your body wants and needs. Many people find that the acceptance and self-love that they practice on the yoga mat can have a profound impact on the way they treat their bodies off the mat, whether that is through improved activity levels, better nutritional choices or reduced reliance on alcohol or tobacco.
+9) Yoga improves breathing. 
+The basis of yogic breathing practices lie in pranayama, or yogic breathing techniques. These techniques, which are integrated into the vast majority of yoga classes, can be amazing for restoring balance and vitality to the body and mind. Controlled breathing can increase energy levels and relax the muscles, while reducing stress, anxiety and depression. 
+10) Yoga encourages your body's natural healing process. 
+Yoga practice can be a wonderful way to create an environment which allows the body's innate healing powers to kick in. In part this is due to the effects of mindfulness on the immune system, increasing the body's ability to fight disease and restore health. The strengthening and lengthening effects of yoga can improve mobility and function, helping the body to recover from physical injury. And the benefits for mental health can lead to improved sleep patterns and enhanced wellbeing, greatly improving your quality of life.
+"/>
+                    <Label     
+                TextColor="#F2D985"
+                BackgroundColor="Transparent"
+                FontFamily="Cinzel"
+                FontSize="Large"
+                FontAttributes="Bold"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Text="Meditation"/>
+                    <Label     
+                TextColor="#F2D985"
+                BackgroundColor="Transparent"
+                FontFamily="Cinzel"
+                FontSize="Medium"
+                FontAttributes="Bold"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Text="Meditation is a method of training your brain to focus on one thing and redirect all your thoughts to the subject you are thinking about. Over the past few decades, the popularity of meditation has grown significantly among people of all ages. The key reason is that people now realize that meditation has both physical and mental health benefits that are sustained for long periods.
+HOW DOES MEDITATION WORK?
+The exact way meditation works is still unknown, but researchers believe that it causes a decreased release of inflammatory chemicals or cytokines, which are known to contribute to a whole host of problems in the human body. There is also some evidence that meditation may be modulating nerve pathways, resulting in diminished pain. Here  are 10  reasons why to start meditating: 
+ 
+1) Lowers stress. There are ample studies showing that regular practice of meditation can relieve stress and improve the quality of life. Stress, whether caused by mental or physical reasons, if not managed, can be physically harmful as it is associated with the release of many inflammatory chemicals called cytokines. These can lead to high blood pressure, anxiety, insomnia, depression, loss of concentration, and fatigue. However, research shows that some of the benefits of meditation include stress relief and improvement of the symptoms of other stress-related disorders.
+2) Reduces anxiety. As we know, anxiety and stress are not the same thing. Meditation allows one to cope and react positively to anxiety, whether or not it is brought on by specific stressors. In order to attain the anxiety-relieving benefits, one has to practice meditation regularly.
+3) Enhances mental health. Studies show that regular meditation can lower the symptoms of depression, reduce the frequency of negative thoughts, and generate more positivity in life.
+4) Improve self-awareness. Regular meditation helps you develop a better understanding of yourself. At the end of the day, meditation reduces the feeling of loneliness and brings contentment.
+5) Increases concentration and attention span. People who practice meditation generally tend to be more focused and accurate when completing a task. The enhanced attention and memory can be derived even after practicing meditation for just 13 minutes a day for 8 weeks.
+6) Reduce memory loss.  Studies show that meditating individuals tend to have improved performance on neuropsychological testing. Further, despite advanced age, these individuals have excellent mental clarity and are more lucid and functional. 
+7) Generates empathy and kindness. In general, it has been observed that people who practice meditation tend to have more empathy and kindness towards others. These individuals tend to impart positive feelings to others, are quick to forgive, and move on with life.
+8) Improves sleep hygiene. If you struggle with sleep, then meditation can help you achieve deep sleep faster and stay asleep longer. Plus, meditation is known to relax the body, ease tension in the muscles, and induce a peaceful state, all factors that are necessary for good quality sleep.
+9) Lower pain. Research shows that meditation can help increase the pain threshold and/or reduce the perception of pain in the brain. In the long run, this also leads to an improved quality of life  and a better mood.
+10) Lower blood pressure. Countless studies have shown that regular meditation can slightly lower blood pressure or reduce the need for blood pressure medications. By lowering blood pressure, you also reduce the risk of a heart attack and stroke.
+"/>
+                    <Label     
+                TextColor="#F2D985"
+                BackgroundColor="Transparent"
+                FontFamily="Cinzel"
+                FontSize="Large"
+                FontAttributes="Bold"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Text="Cardiovascular exercises"/>
+                    <Label     
+                TextColor="#F2D985"
+                BackgroundColor="Transparent"
+                FontFamily="Cinzel"
+                FontSize="Medium"
+                FontAttributes="Bold"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Text="What Is Cardiovascular Exercise?
+Whether it's incorporated into a weight-lifting session as short bursts between exercises or as a stand-alone workout on the treadmill, elliptical or stair climber, cardiovascular exercise is defined as any physical activity that raises your heart rate ​and​ improves the function of your heart, lungs and circulatory system.
+How Much Cardio Should You Do?
+The amount of cardio you do will depend on a variety of factors including your overall goals, current health status and how much time you have to devote to exercise.
+As a baseline, adults should do at least 150 minutes to 300 minutes of moderate-intensity (30 to 60 minutes, five days a week), 75 minutes to 150 minutes a week (15 to 30 minutes, 5 days a week) of vigorous-intensity aerobic physical activity or an equivalent combination of both.
+Benefits of Cardiovascular Exercise:
+1) Helps Improve Heart Health
+A healthy heart can add years to your life and make performing daily activities easier, and cardio workouts help your heart stay strong and pump blood through the body more efficiently. Plus, regular cardiovascular exercise can also lower blood pressure, raise HDL cholesterol levels or 'good' cholesterol, and help manage blood sugar and insulin levels.
+2) Can Boost Mental Wellbeing
+Regular exercise can help lift your mood, decrease anxiety and improve your body's ability to withstand and recover from stress. In fact,  when you exercise, your body releases neurotransmitters called endorphins, which are essential to reaping the mental health benefits of exercise. Cardio workouts (and physical activity or movement in and of itself) can improve mental clarity and reduce feelings of stress or depression.
+3) Burns Calories and Can Aid in Weight Loss
+As long as you're following a healthy diet, cardiovascular exercise can help you meet your weight-loss goals. Here are some common methods of cardio and the number of calories a 155-pound person can burn in 30-minutes
+Walking (4 mph/15-minute mile): 167 calories
+Jog (10-minute mile): 223 calories
+Cycling (16 to 19 mph): 446 calories
+Swimming, vigorous: 372 calories
+4) May Reduce the Risk of Certain Diseases
+Sweating it out on the treadmill or hitting the road for a cycling session just might reduce your risk of developing certain diseases. In addition to protecting your heart. cardio training has also been linked to a reduction in the risk of:
+Diabetes
+Asthma
+Arthritis
+High blood pressure
+Several forms of cancer, including esophagus, lung, kidney, colon, head and neck, rectum, bladder, breast and two cancers of the blood (myeloma and myeloid leukemia)
+5) Helps Improve Brain Health
+The benefits of cardiovascular exercises are impressive. A study found that better cardiorespiratory fitness was linked to higher gray matter volume and total brain volume. That's important because your brain's gray matter plays a role in various motor and cognitive functions, including muscle control, memory and decision making.
+And the benefits continue as you get older. Cardio can help reduce the risk of dementia (including Alzheimer's disease) and slow age-related cognitive decline by improving memory and the ability to retrieve and use information.
+ 
+6) Can Lead to Better Sleep
+Better sleep is something we can all use a lot more of, especially with the high levels of stress many of us experience. The good news is regular physical activity, and more specifically, cardiovascular exercise can result in a better night's sleep. From improved sleep efficiency and reduced sleep latency (taking less time to fall asleep) to better sleep quality and more deep sleep, moving your body during the day has a significant impact on how you sleep at night. Just make sure you're not working out too close to bedtime or you might actually have trouble falling asleep.
+7) May Help You Live Longer
+When you take all the above benefits combined, you end up with another major perk: an overall healthier  and potentially longer  life.
+When your heart is strong, your risk of chronic conditions is lowered and your brain is functioning optimally, you've eliminated your risk of death from some of the most preventable causes. Studies had shown that people who exercised regularly had a lower risk of premature death.
+"/>
+                    <Label     
+                TextColor="#F2D985"
+                BackgroundColor="Transparent"
+                FontFamily="Cinzel"
+                FontSize="Large"
+                FontAttributes="Bold"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Text="Lesson of the day"/>
+                    <Label     
+                TextColor="#F2D985"
+                BackgroundColor="Transparent"
+                FontFamily="Cinzel"
+                FontSize="Medium"
+                FontAttributes="Bold"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Text="Goal setting is one of the most commonly discussed topics in the realm of personal development. If you are yet to set any goal, you should. Stop living your life like a lost sheep following wherever the crowd brings you, live your own life today. There are plenty of benefits to setting goals, and you will discover
+1) Enhance your quality of life.
+Learning provides you with an escape when you need it, knowledge when you seek it, and a great and satisfying pastime.
+2)  Reduce stress. 
+A new hobby can be a great stress reliever. It helps us break out of our normal patterns of behavior. It gives our brains something to think about other than our daily worries. It might be a mere temporary distraction but it shows our mind and body that thinking about something other than stressful things is possible and desirable.
+3)  Gain confidence.
+When we succeed in learning something we feel better, more confident in ourselves and our ability to tackle all sorts of new tasks.
+ 
+4)  Knowledge is power.
+When you have knowledge, you have the power to achieve many things. One of the most crucial reasons to learn something new is that you gain power when you do it. 
+ 
+5)  Improve your mental health.
+One reason why learning has a positive impact on our mental well-being is that it is often about setting goals or targets and achieving these. This sense of achievement is an important part of 'doing well' completing a project is a satisfying way to gain this feeling of accomplishment.
+6)  Socializing. 
+Often learning is a social activity and it can help us connect with other people, which is sometimes difficult to do on a meaningful level in today's electronic world. Social connections are vital to our mental well-being.
+ 
+7)  Be selfish.
+Learning something new might be the excuse you need for some 'me time'. Time away from work or family.  An  appointment with yourself. It might just keep you sane.
+ 
+8)  Have fun.
+Resolving to learn something new is exciting: the world is full of fascinating skills and talents. And the process of discovering them, not just the end result, is enjoyable and rewarding.
+ 
+9)  Set an example.
+There's nothing that gets children interested like observing their parents expressing excitement about learning. Inspire your kids to want to learn, too. 
+ 
+10) Rediscover.
+Many of us have given up on something we were once enthusiastic about in order to focus on a more secure career path. But doesn't it feel worrying? Wouldn't you like to know if you still have the skill and the passion for your long neglected hobby?
+"/>
+                    <Label     
+                TextColor="#F2D985"
+                BackgroundColor="Transparent"
+                FontFamily="Cinzel"
+                FontSize="Large"
+                FontAttributes="Bold"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Text="Title of the day"/>
+                    <Label     
+                TextColor="#F2D985"
+                BackgroundColor="Transparent"
+                FontFamily="Cinzel"
+                FontSize="Medium"
+                FontAttributes="Bold"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Text="The title is the key word of your day, it is the first and sometimes only part of your article that shows the potential you will see and think about if your day was grateful or regular.  So it's important to grab your attention for the next day.
+
+1) Brainstorming.
+When you brainstorm a title, you're doing more than that. You're developing a realistic idea about how you spent your day, and you brainstorm with a quick flashback of your day with what you have learned and did to give a name. Let me be clear. The goal of this process is to come up with a truly great idea. That may sound intimidating.
+
+2) Creativity.
+It's going to require creativity. It may require using your mind in a way you usually don't. 
+
+3) Information.
+The title is, one of the most important parts of a paper. The title is not only printed first (or very close to the top) in an article; it is the part that will be read by most people. These readers must then decide whether the paper contains information that is relevant or interesting for them. The main requirements of a good title can be formulated briefly and sharply: be precise, simple, and short. The best title is one that gives the most accurate information about the content of the paper with the fewest possible words.
+
+4) Start with what, why, how or when.
+Generally, the title should indicate answers to the important basic questions: What? Where? How? So when you read it you can judge your actions on that day. It is the summary result.
+Starting your sentence with one of these words creates a persuasive effect on the title. You can use them to ask a question or establish the purpose of your article immediately in an understandable way for the reader.
+"/>
+                    <Label     
+                TextColor="#F2D985"
+                BackgroundColor="Transparent"
+                FontFamily="Cinzel"
+                FontSize="Large"
+                FontAttributes="Bold"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Text="Notes to take"/>
+                    <Label     
+                TextColor="#F2D985"
+                BackgroundColor="Transparent"
+                FontFamily="Cinzel"
+                FontSize="Medium"
+                FontAttributes="Bold"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Text="A number of studies show that the process of taking notes helps people to boost learning and achieve their goals.
+One of Brian Tracy's core philosophies for goal achievement is writing down your goals as we are more committed to what we write down versus what we say.
+Dr. Gail Matthews, a psychology professor at the Dominican University in California, recently studied the art and science of goal setting:
+She discovered, through group research, that those who wrote down their goals and dreams on a regular basis achieved those desires at a significantly higher level than those who did not. She found that you become 42% more likely to achieve your goals and dreams, simply by writing them down on a regular basis.
+ 
+1) Free you up from information overload.
+We have so many things going through our mind at any one time that it's easy to get overwhelmed.
+So, write down all of your ideas, thoughts, frustrations, to do lists until they are all out of your mind and written down.
+You can then spend some time putting the notes in some kind of order and deciding which thing or project will get your attention.
+2) Make you a better listener.
+When you engage in listening, whether in a meeting, at a seminar or meeting friends, your brain is tuned to record and remember things.
+Rather than the information is something that you hope to retain in your minds 'I need to remember that', you can make notes and continue to listen.
+3) Make things feel more real.
+Something almost magical happens when I take notes. The words take on a new power and it helps me ensure that I take action as my brain is fully engaged.
+Taking notes for the sake of taking notes isn't really going to help you. Turning the notes into actionable ideas is what really matters.
+4) Tune your mind to capture important information.
+When note-taking begins to become a habit, it will start to feel natural to make notes during meetings, networking events, seminars and workshops etc.
+A simple note or idea could turn into something much bigger. Richard Branson (the founder of a famous 'Virgin' company) has said that if he had never taken notes, then many of Virgin's companies and projects would never have started.
+5) Make you a more efficient reader.
+Whether you're reading a book for personal or business development, note-taking can really help maintain focus and give you the ability to retain important quotes, processes or thinking techniques.
+You could underline and fold back the corner of the page but pulling out key elements of the book and then referring back to them gives you the opportunity to think deeper or look at ways you could act on those elements in your business and life.
+6) Improve your memory.
+Humans tend to lose almost 40% of new information within the first 24 hours of reading or hearing it. So, effective note taking can help you retain and retrieve almost 100% of the information you receive.
+When you take handwritten notes, you are writing and organizing as you're thinking, which forces your thoughts to process the information in a deeper way.
+7) Help you better organize your thoughts.
+One challenge people have with note taking is to be able to organize them in a way that you can refer back to them later.
+Note taking on its own isn't enough. You have to revisit the notes and cement the important information in your mind.
+To make this process simpler, you can keep all of your notes in the same place, keep the same format and review your notes on a weekly or fortnightly basis.
+8) Improve your attention span.
+When you have a notebook and pen with you, you become more active and engaged in your environment.
+You'll focus more and pay more attention — a thought, quote, idea or learning experience. When you develop note-taking skills, you become more engaged, pull out and note down the information you want to capture.
+You can then sift, sort and organize your notes to enhance your learning experience or pull out thoughts to develop into bigger ideas.
+9) Train you to capture only what matters.
+Note-taking moves us away from transcribing everything that we hear in a meeting, coaching session or classroom.
+With a pen and notepad at the ready our mind begins to tune in to the things or ideas that matter. We become able to filter out the 'noise' and focus on the most relevant points, or ideas.
+10) Help you ask better questions.
+If you're in a meeting and you're fully engaged and taking notes, your mind can begin to open up and your thought process widens.
+You begin to see connections that you might miss if you hadn't jotted down a specific note. This helps you ask better questions as you may need something to be clarified further or it has opened up a new idea that you want to explore further.
+11) Make you become a more active learner.
+The physical act of writing things down can often help clarify the thoughts and ideas you have in your mind.
+Once things are written down, there is a form of mental stimulation and connection in the mind.
+"/>
+                    <Label     
+                TextColor="#F2D985"
+                BackgroundColor="Transparent"
+                FontFamily="Cinzel"
+                FontSize="Large"
+                FontAttributes="Bold"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Text="World map"/>
+                    <Label     
+                TextColor="#F2D985"
+                BackgroundColor="Transparent"
+                FontFamily="Cinzel"
+                FontSize="Medium"
+                FontAttributes="Bold"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Text="Whether you love to travel or tremble at the thought of going outside, you should consider traveling a bit more. D0n't let lack of money or time stop you.
+Did you know that traveling can make your life better and happier in several ways? Read this list to find out what the top benefits of traveling are:
+1)  It teaches you about the world.
+ 'The world is a book, and those who do not travel read only a page.' – said Saint Augustine. Traveling can teach you more than any university course. You learn about the culture of the country you visit. If you talk to locals, you will likely learn about their thinking, habits, traditions and history as well.
+2) It teaches you about your homeland.
+If you travel, you will not only learn about foreign cultures, but about your own as well. You will notice the cultural differences, and will find out what makes your culture unique. After returning from a long journey, you will see your country with new eyes.
+3) It teaches you about yourself.
+You can learn a lot about yourself through traveling. You can observe how you feel being far from your country. You will find out how you feel about your homeland. You will realize how you really feel about foreign people. You will find out how much you know/do not know about the world. You will be able to observe how you react in completely new situations. You will test your language, orientation and social skills. You will not be the same person after returning home.
+
+
+4) It makes you more tolerant.
+During traveling you will meet people that are very different from you. If you travel enough, you will learn to accept and appreciate these differences. Traveling makes you more open and accepting.
+5)  It provides you with unforgettable moments and experiences.
+Some of my most cherished memories are from the times when I was traveling. If you travel, you can experience things that you could never experience at home. You may see beautiful places and landscapes that do not exist where you live. You may meet people that will change your life, and your thinking. You may try activities that you have never tried before.
+6) It makes you more confident and independent.
+Traveling will inevitably make you more independent and confident. You will realize that you can cope with a lot of unexpected situations. You will realize that you can survive without all that help that is always available for you at home. You will likely find out that you are much stronger and braver than you have expected.
+7)  It lets you gain useful knowledge.
+If you travel, you may learn a lot of useful things. These things can be anything from a new recipe, to a new, more effective solution to an ordinary problem or a new way of creating something.
+8) It improves your language skills.
+Even if you go to a country where they speak the same language as you, you may still learn some new words and expressions that are only used there. If you go to a country where they speak a different language, you will learn even more.
+9) It motivates you.
+After arriving home from a long journey, a lot of travelers experience that they are much more motivated than they were before they left. During your trip you may learn things that you will want to try at home as well. You may want to test your new skills and knowledge. Your experiences will give you a lot of energy.
+
+10) It provides you with memories and stories to tell.
+During traveling you may experience the craziest, most exciting things that will eventually become great stories that you can tell others. When you grow old and look back at your life and all your travel experiences, you will realize how much you have done in your life and your life was not in vain. It can provide you with happiness and satisfaction for the rest of your life.
+11) It improves your lifestyle.
+
+Sometimes, it is easier to stick to a good habit while traveling. For example, when you are on vacation, it is easier to resist temptation and avoid unhealthy snacks in the office kitchen. Also, do not forget about exercising while you are on vacation or business trip. This activity will boost your energy levels and contribute greatly to your well-being.
+"/>
+                    <Label     
+                TextColor="#F2D985"
+                BackgroundColor="Transparent"
+                FontFamily="Cinzel"
+                FontSize="Large"
+                FontAttributes="Bold"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Text="Quotes"/>
+                    <Label     
+                TextColor="#F2D985"
+                BackgroundColor="Transparent"
+                FontFamily="Cinzel"
+                FontSize="Medium"
+                FontAttributes="Bold"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Text="A year from now, you may wish you had started today.
+ You only remember the good time you spent on your journey. So travel, discover, and feel alive about this beautiful world.  
+Do whatever makes you happy, if your happiness bothers them, that simply means they are toxic to you.
+Don't give up on your dreams. Don't you do it, make them happen.
+Losing many people to win yourself is a victory.
+Humans are like paintings, they look good when you step back and not as good when you get closer.Keep your distance to see the beauty of their soul.
+Think wisely before you speak, once you open your mouth, you tell the world who you are.
+Pain teaches us unforgettable lessons. Failure helps us to succeed. Mistakes create experiences. Bad decisions make us wiser.
+Once you know why, you know how.
+It's about self-identity.
+Life without a dream is meaningless. Dreams without goals are just dreams. 
+Goals without actions are just wishes. Actions without plans are disappointments. 
+ It's very intelligent of you to teach people how to treat you.
+Freedom needs courage.
+Never explain yourself to anyone, you don't need anyone's approval.
+ You are no longer who you were before.
+The most hated person is the one who speaks the truth.
+Break the rules by creating yours. 
+Don't be sad about others' reactions to you. They are just giving a clue to their personality.
+Don't be sad for what is over, be glad you had it once.
+Just because something was right for you in the past doesn't mean it is still right for you in the present.
+Never tell anyone about yourself, one day that person might become your enemy.
+Your outlook on yourself determines your true value in life.
+A happy person can live in heaven in the middle of the dark.
+When people walk away from you, let them go. When they walk away, let go.
+Why talk words when actions speak?
+ No one is you, that's what makes you special.
+Don't run from who you are. 
+Be your own inspiration.
+ Don't talk, act. Don't say, show. Don't promise, prove.
+Stop setting\making excuses.
+Life is too short to wait for the perfect time. 
+You are better than you think.
+Dream it. Plan it. Do it.
+Be self-made. Be your own hero.
+Dream big, take risks, work hard, enjoy the process.
+At the end of hardship comes happiness.
+It's okay.
+You can't wait until life is not hard anymore.
+Never give up because great things take time and never come from a comfort zone.
+  Stop wishing, start doing.
+Love yourself, believe in yourself, respect yourself, and trust yourself.
+Don't let yourself get in the way of yourself.
+Success is a decision.
+Be a lion, not a sheep.
+Time is precious, waste it wisely.
+One day you will reach where you always wanted to be and you will understand that all the hard work was worth it.
+You are here to live your best life, not to be a mental prisoner.
+Don't stop filling, each time you fill a paper means you are closer than you were yesterday.
+You are doing it for yourself, not for someone else.
+It only takes 5 minutes a day to fill in the paper that boosts your management to become the person you have always dreamt to be.
+ Do it for yourself, you don't have to impress anyone. Focus on improving your health and happiness for you.
+You are capable of creating the life you want. Stop living it in your head. It's time to make your dreams become your reality.
+Always remember who you are, never give up on yourself.
+Life is a do it yourself project, which means you are the best project that you have to work on.
+You deserve to become the best version of yourself.
+You are doing this to get back the happiness that you have lost when you were a child.
+Day after day, step by step, you will achieve it all. Little thing make big thing happen
+Rely on yourself only, everyone wants to see you good but not better than them.
+New life means a new mind. 
+No matter what will happen, SO WHAT? You can handle it.
+Don't let their lack of appreciation stop you from doing what you were called to do.
+Whatever makes you happy today will no longer make you happy tomorrow. Enjoy the present moment..
+Don't believe in words, believe in actions.
+The past is gone, why talk about it or live based on it.
+ Don't talk about your plans, try to keep your mouth closed so no one works on your ideas. 
+Work on your look because it's one of the major attractions.
+Be surrounded by POSITIVE people.
+Always be honest because it's so powerful. 
+Use your absence to get respected, don't let people get used to you.
+Act like a queen or king and believe in yourself.
+All that you are right now is the result of what you have thought.
+Ignorance is bliss.
+For every problem there is a solution, so don't worry, be happy.
+Don't you ever compare yourself to other people.
+It is better to be hated for what you are than to be loved for what you are not.
+Surround yourself with people who think the way you think or you want to think.
+Life is ridiculous, don't take it seriously and enjoy it. We are somewhere in the solar system.
+You are the author of your own life. 
+Have more than you show. Speak less than you know.
+ The biggest mistake you'll make is when you take life seriously.
+Your life is your message to the world, make it inspiring. 
+Be a leader not a follower.
+Don't you care about those who talk behind your back, focus on what is in front of you. Leave them behind your back.
+Don't let someone who has done nothing tell you how to do anything.
+Knowledge will give you power, but character will give you respect.
+Adaptability, search about it!
+ Self-realization, search about it!
+Do everything with a good heart and expect nothing in return, and you will never be disappointed.
+Not everyone understands your journey. And that's OKAY. You're here to live your life, not to make everyone understand.
+Life is a story, make it yours bestseller.
+Don't be scared to be alone, goals are personal. 
+You are better than you think
+Be yourself. Love yourself. Respect yourself. Believe in yourself.
+Be positive. Dream big. Be kind. Keep smiling. Work hard. Stay humble.
+Remember who you want to be in the dark. 
+Don't quit, just go all the way. DO IT!
+ Forgive to forget. Give to get.
+Dream big and start small.
+Follow your dreams, they know the way.
+ Let the ADVENTURE begin
+Why travel? To learn, to have an adventure,to meet people,to feel more alive, to challenge yourself, to experience cultures. 
+Have you ever booked a flight right after thinking where you wish to go? Do it! And plans will come by themselves.
+:(: you choose (it means happy or sad)
+Don't think too much. Just do what makes you happy. 
+Overthinking is the biggest cause of unhappiness.
+The worst battle is between what you know and what you feel. Let your feelings win.
+An unhappy person deserves to be unhappy, a happy person deserves to be happy. It's a choice not a cause.
+One day you will tell your story of how you overcame what you went through. It will be someone else's guide.
+Do not say 'I don't know' because it is embarrassing. 
+Don't fear your dark days, it's the only place where you shine. The moon needs darkness to shine.
+ You feel bad. Perfect excuse to do unhealthy things to your body and eat junk food. Now your body feels even worse. So what's the point?
+Money is not a goal to achieve because it's a tool to use for accomplishing goals.
+Knowing your identity is the beginning of the greatest wisdom.
+Positive vibes . Positive mind . Positive life.
+Make magic today
+Remember why you started 
+You're  strong. You're enough. You're capable. You're valuable. You're important.
+You will never have this day again so make it count. 
+Stop worrying about things you cannot control.
+Tomorrow could be the day you've been waiting for.
+It's a slow process, but quitting won't speed it up. 
+Eat to fuel your body, not to feed your emotions.
+Focus on the step in front of you. Not the whole stairs.
+Better an oops than a what if
+No risk no story 
+You are the artist of your own life. Don't hand the paintbrush to anyone else.
+Enjoy life there's plenty of time to be dead
+It's always seems impossible until it's done 
+If the plan doesn't work, change the plan but never the goal 
+Remember to live while you're busy surviving 
+The secret of your future is hidden in your daily routine 
+Don't be busy be productive 
+Life isn't about finding yourself. Life is about creating yourself.
+Hang out with people who fit your future not your past
+Only dead fish go with the flow 
+A Lion doesn't lose sleep over the opinion of sheep
+Don't fear failure. Fear being in the same exact place next year as you are today.
+So literally what makes you happy. And take the decision that literally makes you happy.
+Don't wait for someone to challenge you, challenge yourself.
+Your future needs you, your past doesn't.
+Self love isn't selfish, it's important 
+Today, I accept and let go of the things that I control and focus my energy on the things that I can. 
+Train your mind to see the good in every situation 
+Remember, some things have to end for better things to begin.
+Don't overthink and say what if, just take the decision.
+Stop waiting for the weekend, for summer, for someone to fall in love with. Happiness comes when you stop waiting for it. Enjoy the 'now'
+What you think you become. What you feel you attract. What you imagine you create.
+If you are waiting for that person that will change your life, take a look in the mirror.
+Don't let someone else's opinion of you become your reality.
+Everybody wants to be a beast until it's time to do what real beasts do.
+A wise man was asked: 'what's anger?' His answer was: 'It's a punishment we give to ourselves, for someone else's mistake'.
+To change your life you need to change ideas. You can do more thank you think you can 
+Art has no rules, be an artist 
+If you hate a person, then you are defeated by them. Love conquers all.
+Ethics of life: Before you pray, believe. Before you speak, listen. Before you spend, earn. Before you quit, try. Before you die, live.
+Distance yourself from people who; lie to you. Disrespect you. Use you. Put you down.
+ Ego - kill it. Love - value it. Smile - keep it. Gossip - ignore it. Success - achieve it. Jealousy - distance it. Confidence- trust it. 
+Trust the vibes you get, energy doesn't lie.
+Strong minds discuss ideas, average minds discuss events, weak minds discuss people.
+Words are powerful, use them wisely. 
+Be a warrior, not a worrier.
+Life is not a problem to be solved, but a reality to be experienced.
+There is no friend as loyal as a book.
+Show me your friends and I will show you your future.
+Be BOLD.
+DON'TS: don't wait for inspiration, don't worry what people say, don't  complain, don't  try  to please everyone. don't compare yourself. 
+4 simple rules: 1- wake up early 2- work harder than yesterday. 3- never go more than 3 days without exercise. 4- read everyday.
+Stay away from negative people, they have a problem in every solution.
+ Everyone's journey is different, opinions don't define your reality.  
+Sometimes holding on does more damage than letting go.
+We fall, we break, we fail. And then, we rise, we heal, we overcome.
+Make yourself proud.
+Be an old soul, and believe in respect.
+Don't be afraid of being different, be afraid of being like everyone else.
+You are better than you think, ignore people who try to bring you down.
+Be careful who you trust, salt and sugar look the same.
+Expect nothing, appreciate everything.
+Be better than you were yesterday 
+DON'TS:  don't fear alone time,  don't dwell on the past, don't feel the world owes you, don't  worry about pleasing everyone. 
+Great decision comes from a calm mind.
+Use your smile to change the world, don't let the world change your smile.
+Walk like a king or walk like you don't care who the king is.
+You're going to lose a lot of friends when you get serious about your life goals.That's why Bugatti has 2 seats and bus has 30.
+Self-discipline will get you farther than motivation ever will.
+Tomorrow won't be different if you don't change something today.
+Rich people plan for three generations. Poor people plan for Saturday night.
+Respect all your opponents, but fear none.
+Train your mind to be calm in every situation.
+If you want to fly, then give up everything that weighs you down.
+Never doubt yourself.
+No risk, no story.
+Work hard in silence, let success be your noise.
+No one is you, that's your power.
+Start everyday like it's your birthday.
+Creativity is not a mood, nor a gift. It's the very nature of God inside you.
+Don't waste words on people who only deserve your silence.The best  thing you can say is nothing at all.
+Don't worry about a thing, every little thing is gonna be alright.
+Stop waiting for the right time. Time is not waiting for you.
+Be glad if you have scars, they are reminders of when life tried to break you, but failed.
+Never look back, there's nothing there for you.Overthinking kills happiness. Live for today not for tomorrow.
+Never apologize for who you are.
+Love what you have before life teaches you to love what you lost.
+Good things come to those who work really hard.
+You are born to make history! 
+Good things never come from a comfort zone. 
+Expect nothing, appreciate everything.
+If you want something you've never had, you'll have to do something you've never done.
+The body achieves what the mind believes.
+Little by little, day by day, what is meant for you will find its way.
+There is no failure, you either win or learn.
+Work hard for your message, dreams, goals, and your plans. No one else will.
+There is a version of you that is so proud of how far you have come.
+Don't let the bad days make you think you have a bad life.
+I think you should keep going just to see what if.
+Start the habit of asking yourself: 'does this support the life I'm trying to create?'
+Don't feel guilty doing what is best for you.
+If you have things to do then do it now, sometimes LATER becomes NEVER.
+Daily reminder: smile. Drink water. Workout. Meditate. Remember why you started. Spread love and positivity. 
+Decide what kind of life you really want. And then, say no to everything that isn't that.
+A part of being a beast is the way you hunt your dreams.
+Always find time for the things that make you feel happy to be alive.
+Sometimes you need to lose a battle in order to win the war.
+If you feel like you're losing something, remember that trees lose their leaves every year and still stand tall and wait for better days to come.
+Life is short. Time is fast. No replay, no rewind. Enjoy every moment as it comes.
+Every day is a day you have never seen before, make it beautiful.
+Be the reason someone smiles today.
+Fear is your worst enemy.
+Each new day is a blessing. Let go of all worries and be grateful for all that is positive  in your life.
+Create a life you don't need a vacation from.
+Do good and good will come to you.
+Find joy in the simple things and life will always be fulfilling.
+Don't allow the phone to interrupt important moments,it's there for our convenience, not the caller's. 
+Don't burn bridges, you'll be surprised how many times you have to cross the same river.
+Never waste an opportunity to tell someone you love them.
+Begin each day with some of your favorite music.
+Keep a notepad and pencil on your bedside table. Million dollar ideas sometimes strike at 3 a.m.
+6 months from now, you can be in a  different space, mentally, spiritually, financially, physically. Keep working and believing in yourself.
+If a relationship should be a secret, make sure to free yourself from it because you shouldn't be in it.
+Never let your fear decide your fate.
+No one is in charge of your happiness but you.
+What other people think about you is none of your business
+Remember; if you avoid failure, you also avoid success.
+Your future depends on what you do today.
+Growth is painful, change is painful, but nothing is more painful than staying stuck somewhere you don't belong.
+How to succeed: 1st think, 2nd create ideas, 3rd try, then do, then do again, and do again, keep doing until you succeed.
+Memories with the right people will always remain priceless.
+Follow your plan, not your mood.
+Being 1% better everyday can lead to big changes.
+Don't ever forget your worth.
+Fall in love with the process because there is no finish line.
+Karma says; if a man expects a woman to be an angel in his life. He must first create heaven for her. Angels don't live in hell.
+Promises are the sweetest lies.
+Life is a box of chocolate, you will never know what you get inside, but don't be afraid to open it to enjoy the chocolate. Eat them before they expire.
+Exercise every single day, even when you don't feel like it. It is worth it both for your body and mind.
+Make sure you're doing what you love, don't be afraid to trust your gut feeling, don't be afraid to follow dreams you have for yourself.
+Put yourself at the top of your to do list everyday and watch how everything else falls into place.
+Behind every strong person is a story that gave them no choice.
+Chasing happiness will lead you to misery until you realize that happiness is the way.
+Time is not refundable, use it with intention.
+Stay curious, question everything, if you want something, ask for it. Live with such an attitude. When one door closes, another one opens.
+May the flowers remind us why the rain was so necessary.
+If you can drop anything from your world, drop the ego. And if you can be anything in this world, be kind.
+The more grateful you are, the more beauty you will see around you, the more generous life will seem, the happier you will become.
+Just one small positive thought in the morning can change your whole day.
+Discipline is the strongest form of self-love.
+Good habits are as addictive as bad habits but much more rewarding.
+Age is just a number.
+Every morning you have two choices; continue to sleep with your dreams, or wake up and chase them.
+Wake up with determination, go to bed with satisfaction.
+Every great achievement starts with the decision to try, and the confidence to act.
+Each morning, we are born again. What we do today is what matters most.
+Awareness is the greatest agent for change.
+Do not let the behavior of others destroy your inner peace.
+When i feel like dancing, I dance. I don't care if anyone else is dancing or if everyone else is laughing at me. I dance.
+When the vision is clear, strategy is easy.
+Be stubborn about your goals but flexible about your methods.
+Wise men don't judge, they seek to understand.
+Find a way or make one.
+Remember that the reason you are doing this is to make your life better.
+Have the fearless attitude of a hero and the loving heart of a child.
+Be a master of mind rather than mastered by mind.
+Don't rush anything, when the time is right it'll happen.
+Don't let yourself be controlled by three things; people, money, or past experiences.
+Winners are not people who never fail, but people who never quit.
+Life has many different chapters, don't let one bad chapter end the book.
+The greatest achievement is selflessness, the greatest worth is self-mastery, the greatest meditation is a mind that lets go.
+Knowledge is learning something everyday. Wisdom is letting go of something every day.
+Talk about your blessings more than you talk about your problems.
+One moment can change a day, one day can change a life and one life can change the world.
+Keep going! You're doing enough even if it doesn't feel like it. Failure is when you don't try.
+Don't let a little dispute injure a great friendship.
+It's very healthy to spend some time in a line everyday.
+Everything is temporary.
+Never reply when you're angry. Never make a promise when you are happy. Never make a decision when you are sad.
+Habits for success:  make your health a priority, plan your day the night before,  keep your goals in front of you,  take an action, 
+It's time to pick up a new hobby that relieves your stress.
+Stay focused on the to-do list.
+Everyday you get 24 hours.1440 minutes. 86,400 second. It's non-refundable and non renewable. Be selective how you use your time.
+People come and go, but the right ones will always stay.
+It's okay to let go to move on, things always get better with time.
+Kindness is free and a  smile is contagious. 
+When the why is clear, the how is easy.
+Always ask yourself if what you're doing today is getting you closer to where you want to be tomorrow.
+Time is FREE, but it's PRICELESS. You can't KEEP it, but you can SPEND it. Once you've LOST it, you can NEVER get it back.
+A bird on a tree is never afraid of the branch breaking. Because she trusts not the branch but its own wings. Believe in yourself.
+Dress like you own a bank, not like you need a loan from it.
+If you don't build your own dream, someone else will hire you to help them build theirs.
+Direction is so much more important than speed.
+DON'TS: don't expect immediate results, don't waste time feeling sorry for yourself, don't shy away from responsibilities.
+Life is like a camera. Just focus on what's important, capture the good times, and if things don't work out… just take another shot.
+Choose to live by choice, not by chance. To be useful, not used. To make changes, not excuses. Choose self-esteem, not self-pity. 
+Advice from the moon: Live life to the fullest, be someone to look up to. Don't be phased by difficulties, take time to reflect.Light up the night!
+No tree it is said can grow to heaven unless its roots reach down to hell.
+Everything happens for a reason, search for it. Don't ignore it.
+6+3=9 but so does 5+4 or 8+1 or 2+7. The way you do things isn't always the only way to do them. Respect other people's way of thinking.
+Watch your thoughts, for they become words.. Watch your words, for they become Actions. Watch your actions, for they become habits.
+Don't wonder if they like you when you enter a room. Wonder if you like them.
+The loudest one in the room is the weakest one.  Pay attention to the calmest person.  Confidence is silent, insecurities are loud.
+Play smart, act like you didn't notice anything.
+Never tell people what you're doing until it's done.
+Do not ignore the passion that burns in you. Spend time to discover your gift.
+Do not ignore your gift. Your gift is the thing you do the absolute best with the least amount of effort.
+Success is not about achieving, it's about the continuity and stability of succeeding. 
+Never stop learning, because life never stops teaching.
+If they say it's impossible, it's impossible for them not for you. 
+Success is never an accident.
+Never forget  people in your life: who helped you in your difficult time, who left you in your difficult time, who put you through a difficult time.
+Well done is better than well said.
+When you want to do something, don't overthink the process. Just do it without thinking, it's more joyful.
+It's about what you do with the gift of life that determines who you are.
+Work for a cause, not for applause. Live life to express, not to impress.
+When people walk away from you, let them walk. Because your destiny is not tied to the person who left.
+It takes courage to achieve where you want to be, to be exceptional, to be wise, to be rich, to be knowledgeable. Be courageous, my friend!
+The brain thinks, but the heart knows.
+If the egg is broken by outside force, life ends. If the egg is broken from inside force, life begins. Great things always begin from inside.
+No one is coming to save you, this life is 100% your responsibility.
+An eagle uses the storm to reach unimaginable heights.
+Look in the mirror every single day, there you see your competition.
+I'm tired, I'm cold, I'm too hot, it's raining, it's too late. LET'S GO.
+You either do what is HARD and SUCCEED or do what is EASY and live in MEDIOCRITY.
+Stop wishing, start doing.
+Happiness and success will not come to you. You gotta go take them or you'll never have them.
+Always have eyes that see the best, a heart that forgives the worst, a mind that forgets the bad, and a soul that never loses hope.
+If you think one day that you are too small to make a difference. Try sleeping with a mosquito in the room.
+Do more things that make you forget to check your phone.
+Be strong, but not rude. Be kind, but not weak. Be bold, but don't bully. Be humble, but not shy. Be confident, but not arrogant.
+The life in front of you is far more important than the life behind you.
+The two most important days in your life are the day you are born and the day you find out why.
+Life is beautiful, go collect beautiful moments.
+Things that excite you aren't random. They are connected to your purpose. Follow them.
+He who knows others is wise, he who knows himself is enlightened.
+Your energy introduces you before you speak.
+Your habits are the reflection of your self-identity. Choose them wisely.
+Don't forget the things you should remember, and don't remember the things we should forget.
+ A happy soul is the best shield for a cruel world.
+Do things that feed your soul, not your ego.
+Self-discipline begins with the mastery of your thoughts. If you don't control what you think, you can't control what you do. 
+Gratitude is the sign of noble souls.
+Never regret a day in your life. Good days give you happiness, bad days give you experience, the worst days give you lessons.
+Happiness is not about getting all you want, it is about enjoying all you have.
+The man that masters himself through self-discipline can never be mastered by others.
+Don't spend today doing the same thing you did yesterday.
+Doing what you like is freedom. Liking what you do is happiness.
+Life changing key words: Imagination, belief, and desire.
+Go where you feel most ALIVE
+"/>
+                    <Label     
+                TextColor="#F2D985"
+                BackgroundColor="Transparent"
+                FontFamily="Cinzel"
+                FontSize="Large"
+                FontAttributes="Bold"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Text="Story"/>
+                    <Label     
+                TextColor="#F2D985"
+                BackgroundColor="Transparent"
+                FontFamily="Cinzel"
+                FontSize="Medium"
+                FontAttributes="Bold"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Text="The Boulder and the Gold
+The Story:
+There once was a king who decided to do a little experiment. He had a giant boulder put right in the middle of the street. He then hid near the boulder to see who, if anyone, would try to move it out of the way.
+First, some wealthy merchants walked by. They walked around the boulder, complaining that the king hadn't been maintaining the roads very well.
+Next, a peasant walked by, heading home with his arms full of food for his family. When he noticed the boulder, he put his groceries down and attempted to move it out of everyone's way. It took him a while to move it, but he eventually succeeded.
+After the peasant gathered up his groceries to carry on home, he noticed a bag lying in the middle of the road, just where the boulder once was.
+He opened the bag to find that it was stuffed full of gold coins, along with a letter from the king saying that the bag's gold was a reward for the peasant to keep.
+The king gave this gift because the peasant had taken the time and energy to move the boulder out of the road for the convenience of others who would be traveling the road in the future.
+The Moral:
+The peasant in this story was taught by the king that every obstacle you face offers an opportunity to improve.
+If you're able to push through moments that are challenging, you may end up being much better off than you were before you started trying.
+This story also offers a lesson of personal responsibility.
+If you see a job ahead of you, don't leave it for the next person to do. Rather, step up and get the job done to help the people who come after you.
+
+Your value, Dirty Money
+The Story:
+A well-respected speaker began a seminar by showing an audience of 150 people a crisp $20 bill.
+He asked, 'Who wants this $20 bill?'
+All 150 people nodded.
+He said, 'I am going to give this money to someone, but first….'
+Then he proceeded to crumple the bill up.
+He asked the crowd again if anyone wanted it.
+All 150 hands went up in the air.
+The speaker then dropped the money on the floor and stomped all over it.
+He then raised it in the air to show the crowd. The money was filthy.
+'Does anyone want it now?'
+Every hand went up.
+The speaker proceeded to tell the crowd that no matter what he did to ruin the money, people still wanted it because its value remained the same.
+It was still worth $20.
+The Moral:
+Life often beats us up to the point where we feel inadequate. We deal with bad circumstances and make bad choices that we have to deal with later. However, no matter what you go through, your value will remain the same.
+You have something special to offer that no one can take away from you.
+
+What a Waste
+The Story:
+A mother camel and her baby were lying down, soaking up the sun.
+The baby camel asked his mom, 'Why do we have these big bumps on our back?'
+The mom stopped to think and then said, 'We live in the desert where there is not much water available. Our humps store water to help us survive on long journeys.'
+The baby camel then stopped to think and said, 'Well, why do we have long legs with rounded feet?'
+His mother replied, 'They are meant to help us walk through sand.'
+The baby asked a third question, 'Why are my eyelashes so long?'
+The mother replied, 'Your long eyelashes offer you protection from sand when it blows in the wind.'
+Finally, the baby said, 'If we have all of these natural abilities given to us to walk through the desert, what's the use for camels in the Zoo?'
+The Moral:
+The skills and abilities that you possess won't be useful if you're not in the right environment.
+You've probably heard of a professional who ditched his or her career to follow their dreams–or the person who remains unfulfilled in their job, but doesn't try to make a change.
+If you're stuck in a career that isn't the right fit, you have to do some self-reflection to realize where your strengths lie that are going to waste.
+
+Wait…What?
+The Story:
+A carpenter who was nearing retirement told his boss that he was ready to end his career and spend his time with his wife and family. He would miss his work, but he felt it was time to spend his time with the people who were important to him.
+His boss was saddened by this news, as this carpenter had been a good, reliable employee for many years. He asked the carpenter if he could do him a favor and build just one more house.
+The carpenter reluctantly conceded, even though his passion for building had faded.
+While he was building this last house, his normal work ethic faded and his efforts were mediocre, at best. He used inexpensive and inferior materials and cut corners wherever he could. It was a poor way to finish such a dedicated career that he once had.
+When the carpenter was finished, his boss came to look at the house. He gave the key to the carpenter and said, 'This house is my gift to you for all of the hard work you have done for me over the years.'
+The carpenter was astonished.
+What a generous gift this was to receive from his boss, but if he had known he was building a house for himself, he would have made his usual efforts to create a high-quality home.
+The Moral:
+The same idea applies to how you build your life.
+Every day that you wake up offers an opportunity for you to put your best foot forward, yet we often do mediocre work, saving the more important things for 'another' day.
+Then one day, we find ourselves shocked that our lives aren't what we had hoped they would be. The 'house' we built to live in has a lot of flaws due to a lack of effort. However, you can't go back and rebuild it in a day or two.
+As people say, 'Life is a do-it-yourself project.'
+Your attitude and choices help build the life you will live tomorrow. So…build carefully.
+ 
+Rich father took his son to a poor village.
+The Story:
+There was once a boy who was growing up in a very wealthy family.
+One day, his father decided to take him on a trip to show him how others lived who were less fortunate. His father's goal was to help his son appreciate everything that he has been given in life.
+The boy and his father pulled up to a farm where a very poor family lived. They spent several days on the farm, helping the family work for their food and take care of their land.
+When they left the farm, his dad asked his son if he enjoyed their trip and if he had learned anything during the time they spent with this other family.
+The boy quickly replied, 'It was fantastic, that family is so lucky!'
+Confused, his father asked what he meant by that.
+The boy said, 'Well, we only have one dog, but that family has four–and they have chickens!
+We have four people in our home, but they have 12! They have so many people to play with!
+We have a pool in our yard, but they have a river running through their property that is endless.
+We have lanterns outside so we can see at night, but they have the wide open sky and the beautiful stars to give them wonder and light.
+We have a patio, but they have the entire horizon to enjoy–they have endless fields to run around in and play.
+We have to go to the grocery store, but they are able to grow their own food. Our high fence protects our property and our family, but they don't need such a limiting structure, because their friends protect them.'
+The father was speechless.
+Finally, the boy added, 'Thank you for showing me how poor people live, they're so lucky.'
+The Moral:
+True wealth and happiness aren't measured by material belongings.
+Being around the people you love, enjoying the beautiful, natural environment, and having freedom are much more valuable.
+A rich life can mean different things to different people. What are your values and priorities?
+If you have whatever is important to you, you can consider yourself to be wealthy.
+ 
+ 
+ 
+The Baker and the Butter
+The Story:
+There was once a farmer who, each week, sold a pound of butter to a baker.
+After several weeks of buying a pound of butter from the farmer, the baker decided to weigh the butter that he was receiving to ensure it was indeed a full pound. When the baker weighed it, he learned that the butter was under a pound, which enraged him. He felt he was being cheated and he decided to take the farmer to court.
+When in court, the judge asked the farmer how he was weighing the butter.
+The farmer said, 'Your Honor, I am poor. I do not own an exact measuring tool. However, I do have a scale.'
+The judge then asked if the farmer uses the scale to measure the butter.
+The farmer said, 'Your Honor, I have been buying a one-pound loaf of bread from the baker since long before he began purchasing butter from me. Whenever the baker brings bread for me, I put it on the scale and then measure out the exact same weight in butter to give him in return. So, if the baker is not getting a pound of butter, he is also not giving a pound of bread like he promised.'
+The Moral:
+You get what you give. If you try to cheat others out of what you promise them, you will be cheated in return. The more honest you are, the easier it is to trust other people and not suspect they may be cheating you in some way.
+When you're honest, not only will other people trust you, but you will also feel more confident in your trust with others.
+Honesty is always the best route–especially if you want others to be honest with you as well.
+ 
+The Elephant and the Rope (Best Inspirational Short Stories about Life)
+One day a man walked past a camp of elephants.
+Looking closer, he was surprised to see that these mighty animals weren't held in cages or kept in chains.
+The only thing stopping them from escaping?
+A thin rope tied from one of their legs to a simple pole in the ground.
+Confused as to why they didn't use their strength to break the rope, he asked the trainer why they weren't attempting to run away.
+To this the trainer replied,
+'As baby elephants, we use the same system. But, at that age, the rope is strong enough to stop them from escaping. They grow up like this, believing they can never break the rope, so even as adults they stay put.'
+In other words, these powerful, magnificent and intelligent elephants didn't believe they could free themselves, so they never tried.
+Moral of the story:
+Our personal beliefs are powerful beyond measure and often dictate our outcomes. They can work for or against us.
+Identify your limiting beliefs so you can push against them.
+ 
+ 
+Never let one failure from the past hold you back in the future
+'As a man was passing the elephants, he suddenly stopped, confused by the fact that these huge creatures were being held by only a small rope tied to their front leg. No chains, no cages. It was obvious that the elephants could, at any time, break away from their bonds but for some reason, they did not.
+He saw a trainer nearby and asked why these animals just stood there and made no attempt to get away. 'Well,' trainer said, 'when they are very young and much smaller we use the same size rope to tie them and, at that age, it's enough to hold them. As they grow up, they are conditioned to believe they cannot break away. They believe the rope can still hold them, so they never try to break free.'
+The man was amazed. These animals could at any time break free from their bonds but because they believed they couldn't, they were stuck right where they were.'
+
+
+It's never too late.
+In the 1940s, there was a man who, at the age of 65, was living off of $99 social security checks in a small house, driving a beat-up car.
+He decided it was time to make a change, so he thought about what he had to offer that other people may benefit from. His mind went to his fried chicken recipe, which his friends and family loved.
+He left his home state of Kentucky and traveled throughout the country, trying to sell his recipe to restaurants. He even offered the recipe for free, asking for only a small chunk of the money that was earned.
+However, most of the restaurants declined his offer. In fact, 1,009 restaurants said no.
+But even after all of the rejections, he persisted. He believed in himself and his chicken recipe.
+When he visited restaurant #1,010, he got a YES.
+His name?
+Colonel Hartland Sanders.
+The Moral:
+There are a few lessons that you can take away from this story.
+First, it's never too late in life to find success. In a society that often celebrates young, successful people, it's easy to start to think you're never going to be successful after a certain age.
+
+
+
+Stop chasing happiness
+'An old man lived in the village. The whole village was tired of him; he was always gloomy, he constantly complained and was always in a bad mood. The longer he lived, the viler he became and more poisonous were his words. People did their best to avoid him because his misfortune was contagious. He created the feeling of unhappiness in others.
+But one day, when he turned eighty, an incredible thing happened. Instantly everyone started hearing the rumor: 'The old man is happy today, he doesn't complain about anything, smiles, and even his face is freshened up.'
+The whole village gathered around the man and asked him, 'What happened to you?'
+The old man replied, 'Nothing special. Eighty years I've been chasing happiness and it was useless. And then I decided to live without happiness and just enjoy life. That's why I'm happy now.''
+
+Story about your value of life.
+One day a young boy asked his father: what is the value of my life?
+Instead of answering, the father told his son: take this rock and go sell it in the market. If anybody asks the price, raise two fingers and don't say anything.
+The boy then went to the market and a woman asked: How much is this rock I want to put in my garden? The boy didn't say anything and raised up two fingers, and the woman said: two dollars? I'll take it.
+And the boy went home and told his father a woman wants to buy this rock for two dollars, the father then said: Son I want you to take this rock to a museum, if anybody wants to buy it don't say a word and just raise two fingers.
+The boy then went to the museum and a man wanted to buy his rock, the boy didn't say any word and just put up two fingers, and the man said: two hundred dollars?! I'll take it.
+The boy was shocked and went running home and told his father: a man wants to buy this rock for two hundred dollars !! His father then said: the last one I want you to take this rock to a precious stones store, show it to the owner and not say a word, and if he asked the price just put up two fingers.
+The son then went to a precious stones store, he showed the rock to the owner , where did you find this stone??! It is one of the most rare stones in the world, I must have it. How much would you sell it for? The boy raised two fingers, and the man said; I'll take it for two hundred thousand dollars.
+The boy didn't know what to say and ran home to his father. Father, a man wants to buy this stone for two hundred thousand dollars !!! 
+his father then said: Son, do you know the value of your life now? You see, it doesn't matter where you come from, where you were born, the color of your skin, or how much money you were born into. It matters where you decide to place yourself, the people you surround yourself with, and how you choose to carry yourself.
+You may spend your whole life thinking that you are a two dollars stone, you may spend your whole life surrounded by people that see your worth for only two dollars.
+But everybody has a diamond inside him, and we can choose to surround ourselves with people that see our value and see the diamond inside of us, we can choose to put ourselves in a market or in a precious stones store, and also you can choose to see the value of other people, you can help other people to see the diamond inside of them, choose the people you surround yourself wisely, and then you can make all the difference in your life.
+ 
+ 
+8)  Trust yourself and don't expect anything from anyone.
+There was a beautiful old cold town in the north of Europe that had a main door to enter and to exit, by the door there was a doorman shivering from the cold each night after the sunset. Every single night, the doorman used to light up the fire to survive until the morning because of the strong cold. 
+One of the cold early nights, the king entered the town and saw the doorman sitting right next to the fire shivering. The king ordered his soldiers to stop the horse carriage to talk to the doorman.
+'It seems you are very cold.' Said the king to the doorman.
+'Yes my king the cold is so strong, I am lighting up and keeping the fire going till the morning so I don't freeze from cold.' Said the doorman.
+The king; 'I will send you a warm coat that kills the cold with one of my soldiers when I reach my castle, so you don't shiver anymore'. Then the king left.
+The doorman was so happy no more fighting cold anymore. The king went back to his castle and got busy with his family and the towns' affairs with his ministers. The king forgot to send the coat to the doorman. In the morning while the king was drinking his coffee, the soldiers came to him with the sad news of the doorman; 'My king, the doorman died from the cold. And we found this letter in his frozen hand with the title 'To the king.' The king took the letter and opened and read the following; 'My king, I was holding on myself and fighting the cold every night until the sun rose and went to see my family. But when I relied on you to bring me a coat with one of your soldiers I gave up to cold and here I am writing this letter for you before I die that you promise killed me and not the cold. You promised to get me a coat when you reached the castle and I kept waiting for your soldier to come with the coat and that never happened. I wish I didn't expect anything from you. Take care of my family.'
+Moral of the story: 
+Don't you ever rely on anyone, don't you ever expect any help from others, and don't you ever expect anything from anyone. Be strong yourself, relying and expecting from others will definitely destroy you emotionally, make you sad, you toss and turn a lot in your bed losing sleep by the toxic overthinking. 
+"/>
+                    <Label     
+                TextColor="#F2D985"
+                BackgroundColor="Transparent"
+                FontFamily="Cinzel"
+                FontSize="Large"
+                FontAttributes="Bold"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Text="Conclusion"/>
+                    <Label     
+                TextColor="#F2D985"
+                BackgroundColor="Transparent"
+                FontFamily="Cinzel"
+                FontSize="Medium"
+                FontAttributes="Bold"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Text="The benefits of using the daily process planner:
+It can improve your productivity and organization.
+You will be less likely to forget something important.
+It can benefit your career, physical, health, and mental health.
+It will free up more time for fun and creative endeavors.
+It is a place for records.
+It allows you to focus on important activities.
+It gives you a sense of accomplishment.
+It helps to achieve your goal/dreams faster. 
+It helps to improve your lifestyle.
+It promotes positivity.
+It helps you to understand your message in life.
+It shows you your toxic habits and toxic people around you who didn't like self-identity discovery.
+It helps you to be satisfied with your accomplishments.
+It helps you to be your own life coach and a self-motivator.
+It helps you to make a huge successful leap towards your dreams and goals.
+It helps your thoughts, dreams and goals to become your reality.
+It helps you not to waste time and postpone things that are best to do. 
+It helps you to explore, discover and meet new people.
+It keeps you busy and won't let you spend your day by doing useless and silly habits.
+It changes your life.
+"/>
+                    <Label     
+                TextColor="#F2D985"
+                BackgroundColor="Transparent"
+                FontFamily="Cinzel"
+                FontSize="Large"
+                FontAttributes="Bold"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+
+                Text="Description"/>
+                    <Label     
+                TextColor="#F2D985"
+                BackgroundColor="Transparent"
+                FontFamily="Cinzel"
+                FontSize="Medium"
+                FontAttributes="Bold"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Text="If you're looking to organize your day to best achieve your daily goals, you can't go wrong with the notebook by Ribel Fadel. The compact A5 is easy to carry every day, and the ideal size for your bag, briefcase, or backpack. What's more, it makes an excellent gift idea any time of the year.
+I have been using this product years ago and I have achieved everything I have dreamt of and still achieving more dreams. I have no doubt that you will too because it is truly a superior organization, and motivation along the way. In fact, if you have any problems or if you are unsatisfied for any reason, please don't hesitate to get in touch. We take a lot of pride in being there for our customers when they need us and we'll be there for you, too.
+ 
+Writing down your goals 'specially hand writing' gives you a higher likelihood of reaching them. The notebook by Ribel Fadel 2022 is designed in art deco layout for functionality, and elegance inspiration. Packed with motivational quotes and inspiring stories, you'll find it easier than ever to keep track of your day and reach your goals as you set forth.
+The notebook by Ribel Fadel is a physical product not digital.
+It is a copyrighted notebook made for personal use only.
+The stories and quotes created by Ribel Fadel.
+"/>
+                </StackLayout>
+                
+            </ScrollView>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

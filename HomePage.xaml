@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vml="clr-namespace:DocumentFormat.OpenXml.Vml;assembly=DocumentFormat.OpenXml"
+             x:Class="TheNoteBookv8.HomePage"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="Black"
+             >
+    <ScrollView>
+    <StackLayout Spacing="0">
+        <StackLayout  Orientation="Vertical" BackgroundColor="Black"  HeightRequest="50" VerticalOptions="Start" Spacing="0">
+            <CollectionView x:Name="collectionView" VerticalOptions="Center">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout Padding="0,10,0,0"  VerticalOptions="Center" Orientation="Horizontal">
+                            <Label Text="{Binding Titleotd}"
+                                   VerticalOptions="CenterAndExpand"
+                                   FontSize="Title" 
+                                   HorizontalOptions="CenterAndExpand"
+                                   FontFamily="Cinzel"
+                                   TextTransform="Uppercase"
+                                   FontAttributes="Bold"
+                                   TextColor="#F2D985"
+                                   BackgroundColor="Transparent"
+                                   HorizontalTextAlignment="Center"
+                                   VerticalTextAlignment="Center"
+                            />
+
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+        
+
+        <StackLayout Spacing="0" Padding="0,0,0,0" VerticalOptions="Start">
+            <StackLayout Orientation="Horizontal" Spacing="0" Padding="0" VerticalOptions="Start" >
+             
+                <ImageButton
+                  x:Name="btnCalendar"  Clicked="btnCalendar_Clicked"
+                  Source="calendar.png"
+                  BackgroundColor="Transparent"
+                  VerticalOptions="CenterAndExpand"
+                  HorizontalOptions="CenterAndExpand"
+                  WidthRequest="140"
+                  HeightRequest="140"
+                />
+                
+
+                <ImageButton
+                  Source="slphr.png"
+                  BackgroundColor="Transparent"
+                  Clicked="bt2_clicked"
+                  VerticalOptions="CenterAndExpand"
+                  HorizontalOptions="CenterAndExpand"
+                  WidthRequest="140"
+                  HeightRequest="140"
+                />
+             
+                
+                <ImageButton
+                  Source="watr.png"
+                  BackgroundColor="Transparent"
+                  Clicked="bt3_clicked"
+                  VerticalOptions="CenterAndExpand"
+                  HorizontalOptions="CenterAndExpand"
+                  WidthRequest="140"
+                  HeightRequest="140"
+                />
+             
+
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Spacing="0" Padding="0" >
+                
+                <ImageButton
+                  Source="schedule.png"
+                  BackgroundColor="Transparent"
+                  VerticalOptions="CenterAndExpand"
+                  HorizontalOptions="CenterAndExpand"
+                  WidthRequest="140"
+                  HeightRequest="140"
+                  Clicked="bt4_clicked"
+                />
+             
+                
+                <ImageButton
+                 Source="goals.png"
+                  BackgroundColor="Transparent"
+                  VerticalOptions="CenterAndExpand"
+                  HorizontalOptions="CenterAndExpand"
+                  WidthRequest="140"
+                  HeightRequest="140"
+                  Clicked="bt5_clicked"  
+                />
+             
+                
+                <ImageButton
+                  Source="food.png"
+                  BackgroundColor="Transparent"
+                  VerticalOptions="CenterAndExpand"
+                  HorizontalOptions="CenterAndExpand"
+                  WidthRequest="140"
+                  HeightRequest="140"
+                  Clicked="bt6_clicked"  
+                />
+            
+            </StackLayout>
+        <StackLayout Orientation="Horizontal" Spacing="0" Padding="0">
+             
+                <ImageButton
+                  Source="workout.png"
+                  BackgroundColor="Transparent"
+                  VerticalOptions="CenterAndExpand"
+                  HorizontalOptions="CenterAndExpand"
+                  WidthRequest="140"
+                  HeightRequest="140"
+                  Clicked="bt7_clicked"  
+                />
+             
+                
+                <ImageButton
+                 Source="lessonotd.png"
+                  BackgroundColor="Transparent"
+                  VerticalOptions="CenterAndExpand"
+                  HorizontalOptions="CenterAndExpand"
+                  WidthRequest="140"
+                  HeightRequest="140"
+                  Clicked="bt8_clicked"  
+                />
+           
+                
+                <ImageButton
+                  Source="titleotd.png"
+                  BackgroundColor="Transparent"
+                  VerticalOptions="CenterAndExpand"
+                  HorizontalOptions="CenterAndExpand"
+                  WidthRequest="140"
+                  HeightRequest="140"
+                  Clicked="bt9_clicked"  
+                />
+
+             </StackLayout>
+            <StackLayout Orientation="Horizontal" Spacing="0" Padding="0">
+             
+                <ImageButton
+                  Source="notes.png"
+                  BackgroundColor="Transparent"
+                  VerticalOptions="CenterAndExpand"
+                  HorizontalOptions="CenterAndExpand"
+                  WidthRequest="140"
+                  HeightRequest="140"
+                  Clicked="bt10_clicked"  
+  
+                />
+            
+
+                <ImageButton
+                  Source="map.png"
+                  BackgroundColor="Transparent"
+                  VerticalOptions="CenterAndExpand"
+                  HorizontalOptions="CenterAndExpand"
+                  WidthRequest="140"
+                  HeightRequest="140"
+                  Clicked="bt11_clicked"  
+                />
+
+                <ImageButton
+                  Source="stats.png"
+                  BackgroundColor="Transparent"
+                  VerticalOptions="CenterAndExpand"
+                  HorizontalOptions="CenterAndExpand"
+                  WidthRequest="140"
+                  HeightRequest="140"
+                  Clicked="bt12_clicked"  
+                />
+
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Spacing="0" Padding="0">
+
+                <ImageButton
+                  Source="Empty0.png"
+                  BackgroundColor="Transparent"
+                  VerticalOptions="CenterAndExpand"
+                  HorizontalOptions="CenterAndExpand"
+                  WidthRequest="140"
+                  HeightRequest="140"
+                  Clicked="bt10_clicked"  
+  
+                />
+
+
+                <ImageButton
+                  Source="Empty0.png"
+                  BackgroundColor="Transparent"
+                  VerticalOptions="CenterAndExpand"
+                  HorizontalOptions="CenterAndExpand"
+                  WidthRequest="140"
+                  HeightRequest="140"
+                  Clicked="bt11_clicked"  
+                />
+
+                <ImageButton
+                  Source="Empty0.png"
+                  BackgroundColor="Transparent"
+                  VerticalOptions="CenterAndExpand"
+                  HorizontalOptions="CenterAndExpand"
+                  WidthRequest="140"
+                  HeightRequest="140"
+                  Clicked="bt12_clicked"  
+                />
+
+            </StackLayout>
+
+
+            <StackLayout Orientation="Horizontal" BackgroundColor="Black">
+                    <DatePicker
+                    FontFamily="Cinzel"
+                        Format="dd/MM/yyyy"
+                    BackgroundColor="Transparent"
+                    FontSize="Medium"  
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="CenterAndExpand"
+                    HeightRequest="50"
+                    WidthRequest="100"
+                    TextColor="#F2D985"
+                    InputTransparent="True"
+                    x:Name="Dateo" />
+                    
+
+                    <Button 
+                        Text="The NoteBook Description"
+                        TextTransform="Default"
+                        FontFamily="Cinzel"
+                        BackgroundColor="Transparent"
+                        FontSize="Default"
+                        TextColor="#F2D985"
+                        FontAttributes="Italic"
+                        Clicked="Desc_Clicked"
+                        Padding="0,0,30,0"
+                        
+                   
+                        
+                        />
+            </StackLayout>
+            
+
+
+
+        </StackLayout>
+        
+
+    </StackLayout>
+    </ScrollView>
+</ContentPage>
+

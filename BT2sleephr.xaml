@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TheNoteBookv8.BTsleephr"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundImageSource="backgroundf.png">
+    <ContentPage.Content>
+        <StackLayout Padding="0">
+
+            <StackLayout Padding="120">
+                <Label Text="SLEEPING HOURS"
+                   TextColor="#F2D985"
+                   BackgroundColor="Transparent"
+                   TextDecorations="None"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   VerticalOptions="StartAndExpand"
+                   HorizontalOptions="CenterAndExpand"
+                   VerticalTextAlignment="Center"
+                   HorizontalTextAlignment="Center"
+                       FontFamily="Cinzel"
+                   />
+            </StackLayout>
+            
+            <StackLayout  Orientation="Horizontal" Spacing="0" BackgroundColor="Transparent" Padding="40,0,40,0">
+                <Label
+                    Text="From"
+                    FontAttributes="Bold"
+                    FontSize="Large"
+                    TextColor="#F2D985"
+                    VerticalTextAlignment="Center"
+                    HorizontalTextAlignment="Center"
+                    HeightRequest="50"
+                    WidthRequest="100"
+                    VerticalOptions="StartAndExpand"
+                    HorizontalOptions="StartAndExpand"
+                    FontFamily="Cinzel"
+                    />
+
+                <TimePicker 
+                    
+                    x:Name="fromslp"
+                    Format="HH:mm" 
+                    FontFamily="Cinzel"
+                    BackgroundColor="#F2D985"
+                    FontSize="Medium"  
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="CenterAndExpand"
+                    HeightRequest="50"
+                    WidthRequest="100"
+                    TextColor="Black"
+                />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Spacing="0" BackgroundColor="Transparent" Padding="40,0,40,0">
+                <Label
+                    Text="To"
+                    FontAttributes="Bold"
+                    FontSize="Large"
+                    TextColor="#F2D985"
+                    VerticalTextAlignment="Center"
+                    HorizontalTextAlignment="Center"
+                    HeightRequest="50"
+                    WidthRequest="100"
+                    VerticalOptions="StartAndExpand"
+                    HorizontalOptions="StartAndExpand"
+                    FontFamily="Cinzel"
+                    />
+                <TimePicker 
+                    
+                    x:Name="toslp"
+                    Format="HH:mm" 
+                    BackgroundColor="#F2D985"
+                    FontSize="Medium"  
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="CenterAndExpand"
+                    HeightRequest="50"
+                    WidthRequest="100"
+                    TextColor="Black"
+                    FontFamily="Cinzel"
+                />
+
+            </StackLayout>
+            <Label Text="{Binding SelectedTimeto}"/>
+            
+        </StackLayout>
+            
+    </ContentPage.Content>
+</ContentPage>

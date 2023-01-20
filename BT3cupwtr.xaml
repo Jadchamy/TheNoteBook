@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TheNoteBookv8.BTcupwtr"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundImageSource="backgroundf">
+    <ContentPage.Content>
+        
+        <StackLayout>
+            <StackLayout Padding="115">
+                <Label
+                Text="WATER"
+                TextColor="#F2D985"
+                BackgroundColor="Transparent"
+                FontFamily="Cinzel"
+                FontSize="Large"
+                FontAttributes="Bold"
+                VerticalOptions="StartAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                />
+            </StackLayout>
+            <StackLayout>
+                <StackLayout Orientation="Horizontal" Spacing="0" Padding="40,0,0,0" Margin="0">
+
+                    <Image x:Name="cup1" Source="WaterCup" IsVisible="false" WidthRequest="80" HeightRequest="50" HorizontalOptions="Center" />
+                    <Image x:Name="cup2" Source="WaterCup" IsVisible="false" WidthRequest="80" HeightRequest="50" HorizontalOptions="Center" />
+                    <Image x:Name="cup3" Source="WaterCup" IsVisible="false" WidthRequest="80" HeightRequest="50" HorizontalOptions="Center" />
+                    <Image x:Name="cup4" Source="WaterCup" IsVisible="false" WidthRequest="80" HeightRequest="50" HorizontalOptions="Center" />
+                   
+
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Spacing="0" Padding="40,0,0,0">
+                    <Image x:Name="cup5" Source="WaterCup" IsVisible="false" WidthRequest="80" HeightRequest="50" HorizontalOptions="Center" />
+                    <Image x:Name="cup6" Source="WaterCup" IsVisible="false" WidthRequest="80" HeightRequest="50" HorizontalOptions="Center" />
+                    <Image x:Name="cup7" Source="WaterCup" IsVisible="false" WidthRequest="80" HeightRequest="50" HorizontalOptions="Center" />
+                    <Image x:Name="cup8" Source="WaterCup" IsVisible="false" WidthRequest="80" HeightRequest="50" HorizontalOptions="Center" />
+                   
+
+                </StackLayout>
+            </StackLayout>
+            
+
+            <Entry x:Name="textbox1" IsReadOnly="True"
+                   IsVisible="false"
+                 MaxLength="8" 
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="CenterAndExpand"
+                   TextColor="WhiteSmoke"
+                   BackgroundColor="Transparent"
+                   VerticalTextAlignment="Center"
+                   HorizontalTextAlignment="Center"
+                   WidthRequest="100"
+                   HeightRequest="50"
+                   FontAttributes="Bold"
+                   FontSize="Large"
+                   />
+
+            <StackLayout Padding="0,0,0,120">
+                <ImageButton
+                Source="WaterCup"
+                Clicked="waterclicked"
+                BackgroundColor="Transparent"
+                BorderColor="Black"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                WidthRequest="250"
+                HeightRequest="100"
+                />
+                
+            </StackLayout>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

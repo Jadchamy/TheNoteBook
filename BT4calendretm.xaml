@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TheNoteBookv8.BTcalendretm"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundImageSource="backgroundf">
+    <StackLayout >
+
+        <StackLayout Padding="120">
+            <Label
+                Text="REMINDER"
+                TextColor="#F2D985"
+                BackgroundColor="Transparent"
+                TextDecorations="None"
+                FontSize="Title"
+                FontFamily="Cinzel"
+                FontAttributes="Bold"
+               VerticalOptions="StartAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                />
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <TimePicker 
+                x:Name="tmpicker"
+                BackgroundColor="Transparent"
+                HorizontalOptions="CenterAndExpand"
+                TextTransform="Uppercase"
+                FontFamily="Cinzel"
+                TextColor="#F2D985"
+             />
+            <Switch x:Name="swtch" OnColor="#F2D985" BackgroundColor="Transparent" HorizontalOptions="CenterAndExpand"/>
+            
+        </StackLayout>
+        <StackLayout Padding="60,0,60,0">
+            <Entry x:Name="entrymsg"
+                   IsTextPredictionEnabled="True"
+                   TextColor="#F2D985"
+                   FontFamily="Cinzel"
+                   FontSize="Small"
+                   HorizontalTextAlignment="Center"
+                   BackgroundColor="Transparent"
+                   Placeholder="Enter Event To Be Reminded Of"
+                   PlaceholderColor="Gray"
+                   WidthRequest="30"/>
+        </StackLayout>
+        
+    </StackLayout>
+</ContentPage>

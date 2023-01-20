@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TheNoteBookv8.BT7workout"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundImageSource="backgroundf">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <StackLayout Padding="120">
+                <Label
+                Text="WORKOUT"
+                TextColor="#F2D985"
+                BackgroundColor="Transparent"
+                FontFamily="Cinzel"
+                FontSize="Large"
+                FontAttributes="Bold"
+                VerticalOptions="StartAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                />
+            </StackLayout>
+            <StackLayout  Orientation="Horizontal" Spacing="0">
+
+                <Label
+                   Text="Cardio"
+                    FontAttributes="Bold"
+                    FontSize="Large"
+                    TextColor="#F2D985"
+                    VerticalTextAlignment="Center"
+                    HorizontalTextAlignment="Center"
+                    BackgroundColor="Transparent"
+                    HeightRequest="50"
+                    WidthRequest="200"
+                    VerticalOptions="StartAndExpand"
+                    HorizontalOptions="StartAndExpand"
+                    FontFamily="Cinzel"
+                    /> 
+                <Entry
+                   Keyboard="Chat"
+                    Placeholder="- - - - - - - - - - - - - -"
+                    x:Name="Cardiowrkt" PlaceholderColor="#F2D985" TextColor="WhiteSmoke"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="StartAndExpand"
+                    VerticalTextAlignment="Center"
+                    HorizontalTextAlignment="Center"
+                    HeightRequest="50"
+                    WidthRequest="100"
+                    BackgroundColor="Transparent"
+                    FontSize="Subtitle"
+                    FontFamily="Cinzel"
+                   />
+            </StackLayout>
+            <StackLayout  Orientation="Horizontal" Spacing="0">
+
+                <Label
+                   Text="Weights"
+                    FontAttributes="Bold"
+                    FontSize="Large"
+                    TextColor="#F2D985"
+                    VerticalTextAlignment="Center"
+                    HorizontalTextAlignment="Center"
+                    BackgroundColor="Transparent"
+                    HeightRequest="50"
+                    WidthRequest="200"
+                    VerticalOptions="StartAndExpand"
+                    HorizontalOptions="StartAndExpand"
+                    FontFamily="Cinzel"
+                    />
+
+                <Entry
+                   Keyboard="Chat"
+                    Placeholder="- - - - - - - - - - - - - -"
+                    x:Name="Weightswrkt" PlaceholderColor="#F2D985" TextColor="WhiteSmoke"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="StartAndExpand"
+                    VerticalTextAlignment="Center"
+                    HorizontalTextAlignment="Center"
+                    HeightRequest="50"
+                    WidthRequest="100"
+                    BackgroundColor="Transparent"
+                    FontSize="Subtitle"
+                    FontFamily="Cinzel"
+                   />
+            </StackLayout>
+            <StackLayout  Orientation="Horizontal" Spacing="0">
+
+                <Label
+                    Text="Yoga"
+                    FontAttributes="Bold"
+                    FontSize="Large"
+                    TextColor="#F2D985"
+                    VerticalTextAlignment="Center"
+                    HorizontalTextAlignment="Center"
+                    BackgroundColor="Transparent"
+                    HeightRequest="50"
+                    WidthRequest="200"
+                    VerticalOptions="StartAndExpand"
+                    HorizontalOptions="StartAndExpand"
+                    FontFamily="Cinzel"
+                    />
+
+                <Entry
+                   Keyboard="Chat"
+                    Placeholder="- - - - - - - - - - - - - -"
+                    x:Name="Yogawrkt" PlaceholderColor="#F2D985" TextColor="WhiteSmoke"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="StartAndExpand"
+                    VerticalTextAlignment="Center"
+                    HorizontalTextAlignment="Center"
+                    HeightRequest="50"
+                    WidthRequest="100"
+                    BackgroundColor="Transparent"
+                    FontSize="Subtitle"
+                    FontFamily="Cinzel"
+                   />
+            </StackLayout>
+            <StackLayout  Orientation="Horizontal" Spacing="0">
+
+                <Label
+                    Text="Others"
+                    FontAttributes="Bold"
+                    FontSize="Large"
+                    TextColor="#F2D985"
+                    VerticalTextAlignment="Center"
+                    HorizontalTextAlignment="Center"
+                    BackgroundColor="Transparent"
+                    HeightRequest="50"
+                    WidthRequest="200"
+                    VerticalOptions="StartAndExpand"
+                    HorizontalOptions="StartAndExpand"
+                    FontFamily="Cinzel"
+                    />
+
+                <Entry
+                   Keyboard="Chat"
+                    Placeholder="- - - - - - - - - - - - - -"
+                    x:Name="Otherswrkt" PlaceholderColor="#F2D985" TextColor="WhiteSmoke"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="StartAndExpand"
+                    VerticalTextAlignment="Center"
+                    HorizontalTextAlignment="Center"
+                    HeightRequest="50"
+                    WidthRequest="100"
+                    BackgroundColor="Transparent"
+                    FontSize="Subtitle"
+                    FontFamily="Cinzel"
+                   />
+            </StackLayout>
+            <StackLayout Padding="0,180,0,0" VerticalOptions="EndAndExpand">
+                <ImageButton Source="save01"
+                             BackgroundColor="Transparent"
+                             x:Name="savetotd"
+                             Clicked="SaveWorkoutclicked"
+                             HeightRequest="60"
+                             WidthRequest="150" 
+
+                         />
+            </StackLayout>
+            <StackLayout>
+                <CollectionView x:Name="collectionView">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <StackLayout Padding="0,20,0,0">
+                                
+                            </StackLayout>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </StackLayout>
+
+
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

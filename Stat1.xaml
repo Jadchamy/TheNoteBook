@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TheNoteBookByRibal.Stat1"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundImageSource="background99"
+             BackgroundColor="black">
+    
+        
+  
+    
+       
+            
+        
+        <StackLayout>
+            <StackLayout WidthRequest="100"
+                         Padding="0,80,0,0">
+                <Entry
+                x:Name="Date5" 
+                Placeholder="Please Enter (ddmmyyyy)"
+                PlaceholderColor="Gray"
+                HorizontalOptions="Center"
+                BackgroundColor="Transparent"
+                TextColor="#F2D985"
+                WidthRequest="300"
+                />
+            </StackLayout>
+            
+            <Button Text="Show Result"
+                    TextColor="#F2D985"
+                    FontFamily="Cinzel"
+                    BackgroundColor="Black"
+                    BorderColor="#F2D985"
+                    BorderWidth="4"
+                    HorizontalOptions="Center"
+                    WidthRequest="300"
+                    Clicked="btsave_Clicked"/>
+
+        <ScrollView HeightRequest="450">
+            
+        
+        <StackLayout>
+            
+        
+        
+                <Label Text="Title of the day"
+                       TextColor="#F2D985"
+                       FontFamily="Cinzel"
+                       FontSize="Medium"
+                       HorizontalOptions="Center"
+                       WidthRequest="300"
+                       FontAttributes="Bold"
+                       TextDecorations="Underline"/>
+                <StackLayout  Orientation="Vertical" BackgroundColor="Transparent"  HeightRequest="10" HorizontalOptions="Center" WidthRequest="300" VerticalOptions="Start" Spacing="0">
+                <CollectionView x:Name="collectionView" VerticalOptions="Center">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <StackLayout>
+                                <Label x:Name="lblDate"
+                                   Text="{Binding Titleotd}"
+                                       FontFamily="Cinzel"
+                                   TextColor="#F2D985"/>
+                            </StackLayout>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </StackLayout>
+                <Label Text="Meals"
+                       TextColor="#F2D985"
+                       FontFamily="Cinzel"
+                       FontSize="Medium"
+                       HorizontalOptions="Center"
+                       WidthRequest="300"
+                       FontAttributes="Bold"
+                       TextDecorations="Underline"
+                       Padding="0,30,0,0"/>
+                <StackLayout  Orientation="Vertical" BackgroundColor="Transparent" HorizontalOptions="Center" WidthRequest="300" HeightRequest="90" VerticalOptions="Start" Spacing="0" >
+                <CollectionView x:Name="collectionView1" VerticalOptions="Center">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <StackLayout>
+                                    
+                                    <Label x:Name="lblbrkfst"
+                                   Text="{Binding Breakfast}"
+                                   TextColor="#F2D985"
+                                           FontFamily="Cinzel"
+                                       VerticalOptions="Start"/>
+                                <Label x:Name="lbllnch"
+                                   Text="{Binding Lunch}"
+                                   TextColor="#F2D985"
+                                       FontFamily="Cinzel"
+                                       VerticalOptions="Start"/>
+                                <Label x:Name="lblsnks"
+                                   Text="{Binding Snacks}"
+                                   TextColor="#F2D985"
+                                       FontFamily="Cinzel"
+                                       VerticalOptions="Start"/>
+                                <Label x:Name="lbldnr"
+                                   Text="{Binding Dinner}"
+                                   TextColor="#F2D985"
+                                       FontFamily="Cinzel"
+                                       VerticalOptions="Start"/>
+                                    
+                                </StackLayout>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </StackLayout>
+                <Label Text="Goals"
+                       TextColor="#F2D985"
+                       FontFamily="Cinzel"
+                       FontSize="Medium"
+                       HorizontalOptions="Center"
+                       WidthRequest="300"
+                       FontAttributes="Bold"
+                       TextDecorations="Underline"
+                       Padding="0,0,0,0"/>
+                <StackLayout  Orientation="Vertical" BackgroundColor="Transparent" HorizontalOptions="Center" WidthRequest="300" HeightRequest="90" VerticalOptions="Start" Spacing="0" >
+                    <CollectionView x:Name="collectionView2" VerticalOptions="Center">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <StackLayout>
+
+                                    <Label x:Name="lblgoal1"
+                                   Text="{Binding Target1}"
+                                   TextColor="#F2D985"
+                                           FontFamily="Cinzel"
+                                       VerticalOptions="Start"/>
+                                    <Label x:Name="lblgoal2"
+                                   Text="{Binding Target2}"
+                                   TextColor="#F2D985"
+                                           FontFamily="Cinzel"
+                                       VerticalOptions="Start"/>
+                                    <Label x:Name="lblgoal3"
+                                   Text="{Binding Target3}"
+                                   TextColor="#F2D985"
+                                           FontFamily="Cinzel"
+                                       VerticalOptions="Start"/>
+                                    <Label x:Name="lblgoal4"
+                                   Text="{Binding Target4}"
+                                   TextColor="#F2D985"
+                                           FontFamily="Cinzel"
+                                       VerticalOptions="Start"/>
+                                    <Label x:Name="lblgoal5"
+                                   Text="{Binding Target5}"
+                                   TextColor="#F2D985"
+                                           FontFamily="Cinzel"
+                                       VerticalOptions="Start"/>
+
+                                </StackLayout>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </StackLayout>
+                <Label Text="Workout"
+                       TextColor="#F2D985"
+                       FontFamily="Cinzel"
+                       FontSize="Medium"
+                       HorizontalOptions="Center"
+                       WidthRequest="300"
+                       FontAttributes="Bold"
+                       TextDecorations="Underline"
+                       Padding="0,0,0,0"/>
+                <StackLayout  Orientation="Vertical" BackgroundColor="Transparent" HorizontalOptions="Center" WidthRequest="300" HeightRequest="90" VerticalOptions="Start" Spacing="0" >
+                    <CollectionView x:Name="collectionView3" VerticalOptions="Center">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                            
+                                <StackLayout>
+                                    
+
+                                    <Label x:Name="lblcardio"
+                                   Text="{Binding Cardio}"
+                                   TextColor="#F2D985"
+                                           FontFamily="Cinzel"
+                                       VerticalOptions="Start"/>
+                                    <Label x:Name="lblweights"
+                                   Text="{Binding Weights}"
+                                   TextColor="#F2D985"
+                                           FontFamily="Cinzel"
+                                       VerticalOptions="Start"/>
+                                    <Label x:Name="lblyoga"
+                                   Text="{Binding Yoga}"
+                                           FontFamily="Cinzel"
+                                   TextColor="#F2D985"
+                                       VerticalOptions="Start"/>
+                                    <Label x:Name="lblothers"
+                                   Text="{Binding Others}"
+                                   TextColor="#F2D985"
+                                           FontFamily="Cinzel"
+                                       VerticalOptions="Start"/>
+                                   
+
+                                </StackLayout>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </StackLayout>
+            <Label Text="Lesson of the day"
+                       TextColor="#F2D985"
+                       FontFamily="Cinzel"
+                       FontSize="Medium"
+                       HorizontalOptions="Center"
+                       WidthRequest="300"
+                       FontAttributes="Bold"
+                       TextDecorations="Underline"
+                       Padding="0,0,0,0"/>
+            <StackLayout  Orientation="Vertical" BackgroundColor="Transparent" HorizontalOptions="Center" WidthRequest="300" HeightRequest="90" VerticalOptions="Start" Spacing="0" >
+                <CollectionView x:Name="collectionView4" VerticalOptions="Center">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+
+                            <StackLayout>
+
+
+                                <Label x:Name="lbllesson1"
+                                   Text="{Binding lesson1}"
+                                   TextColor="#F2D985"
+                                       FontFamily="Cinzel"
+                                       VerticalOptions="Start"/>
+                                <Label x:Name="lbllesson2"
+                                   Text="{Binding lesson2}"
+                                   TextColor="#F2D985"
+                                       FontFamily="Cinzel"
+                                       VerticalOptions="Start"/>
+                                <Label x:Name="lbllesson3"
+                                   Text="{Binding lesson3}"
+                                   TextColor="#F2D985"
+                                       FontFamily="Cinzel"
+                                       VerticalOptions="Start"/>
+                                <Label x:Name="lbllesson4"
+                                   Text="{Binding lesson4}"
+                                   TextColor="#F2D985"
+                                       FontFamily="Cinzel"
+                                       VerticalOptions="Start"/>
+
+
+                            </StackLayout>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </StackLayout>
+                <Label Text="Notes"
+                       TextColor="#F2D985"
+                       FontFamily="Cinzel"
+                       FontSize="Medium"
+                       HorizontalOptions="Center"
+                       WidthRequest="300"
+                       FontAttributes="Bold"
+                       TextDecorations="Underline"
+                       Padding="0,0,0,0"/>
+                <StackLayout  Orientation="Vertical" BackgroundColor="Transparent" HorizontalOptions="Center" WidthRequest="300" HeightRequest="90" VerticalOptions="Start" Spacing="0" >
+                    <CollectionView x:Name="collectionView5" VerticalOptions="Center">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+
+                                <StackLayout>
+
+
+                                    <Label x:Name="lblNote1"
+                                   Text="{Binding Note1}"
+                                           FontFamily="Cinzel"
+                                   TextColor="#F2D985"
+                                       VerticalOptions="Start"/>
+                                    <Label x:Name="lblNote2"
+                                   Text="{Binding Note2}"
+                                           FontFamily="Cinzel"
+                                   TextColor="#F2D985"
+                                       VerticalOptions="Start"/>
+                                    <Label x:Name="lblNote3"
+                                   Text="{Binding Note3}"
+                                           FontFamily="Cinzel"
+                                   TextColor="#F2D985"
+                                       VerticalOptions="Start"/>
+                                    <Label x:Name="lblNote4"
+                                   Text="{Binding Note4}"
+                                           FontFamily="Cinzel"
+                                   TextColor="#F2D985"
+                                       VerticalOptions="Start"/>
+
+
+                                </StackLayout>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+
+
+    </StackLayout>
+    
+
+
+</ContentPage>

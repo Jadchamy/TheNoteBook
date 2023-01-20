@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TheNoteBookv8.BTfood"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundImageSource="background21">
+    <ContentPage.Content>
+        <StackLayout >
+
+            <StackLayout Padding="110"  VerticalOptions="Center">
+                <Image
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    Source="Meals1"
+                    ScaleY="2"
+                    ScaleX="1.8"
+                    
+                    />
+               
+            </StackLayout>
+            <StackLayout  Orientation="Vertical" Spacing="0" VerticalOptions="Center" HorizontalOptions="Center">
+                <Label Padding="10,0,0,0"
+                    Text="Breakfast"
+                    FontAttributes="Bold"
+                    FontSize="Large"
+                    TextColor="#F2D985"
+                    VerticalTextAlignment="Center"
+                    HorizontalTextAlignment="Center"
+                    BackgroundColor="Transparent"
+                    HeightRequest="50"
+                    WidthRequest="200"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    FontFamily="Cinzel"
+                    />
+
+
+                <Entry
+                   Keyboard="Chat"
+                    Placeholder="- - - - - - - - - - - - - - - - - - - - - - - - - - - - -"
+                    x:Name="brkfst" PlaceholderColor="#F2D985" TextColor="WhiteSmoke"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    VerticalTextAlignment="Center"
+                    HorizontalTextAlignment="Center"
+                    HeightRequest="50"
+                    WidthRequest="250"
+                    BackgroundColor="Transparent"
+                    FontSize="Subtitle"
+                    FontFamily="Cinzel"
+                   />
+            </StackLayout>
+            <StackLayout  Orientation="Vertical" Spacing="0">
+
+                <Label
+                    Text="Lunch"
+                    FontAttributes="Bold"
+                    FontSize="Large"
+                    TextColor="#F2D985"
+                    VerticalTextAlignment="Center"
+                    HorizontalTextAlignment="Center"
+                    BackgroundColor="Transparent"
+                    HeightRequest="50"
+                    WidthRequest="200"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    FontFamily="Cinzel"
+                    />
+
+                <Entry
+                    Keyboard="Chat"
+                    Placeholder="- - - - - - - - - - - - - - - - - - - - - - - - - - - - -"
+                    x:Name="lunch" PlaceholderColor="#F2D985" TextColor="WhiteSmoke"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    VerticalTextAlignment="Center"
+                    HorizontalTextAlignment="Center"
+                    HeightRequest="50"
+                    WidthRequest="250"
+                    BackgroundColor="Transparent"
+                    FontSize="Subtitle"
+                    FontFamily="Cinzel"
+                   />
+            </StackLayout>
+            <StackLayout  Orientation="Vertical" Spacing="0">
+
+                <Label
+                    Text="Snacks"
+                   FontAttributes="Bold"
+                    FontSize="Large"
+                    TextColor="#F2D985"
+                    VerticalTextAlignment="Center"
+                    HorizontalTextAlignment="Center"
+                    BackgroundColor="Transparent"
+                    HeightRequest="50"
+                    WidthRequest="200"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    FontFamily="Cinzel"
+                    />
+                <Entry
+                    Keyboard="Chat"
+                   Placeholder="- - - - - - - - - - - - - - - - - - - - - - - - - - - - -"
+                    x:Name="snacks" PlaceholderColor="#F2D985" TextColor="WhiteSmoke"
+                   VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    VerticalTextAlignment="Center"
+                    HorizontalTextAlignment="Center"
+                    HeightRequest="50"
+                    WidthRequest="250"
+                    BackgroundColor="Transparent"
+                    FontSize="Subtitle"
+                    FontFamily="Cinzel"
+                    />
+            </StackLayout>
+            <StackLayout  Orientation="Vertical" Spacing="0">
+                <Label
+                    Text="Diner"
+                    FontAttributes="Bold"
+                    FontSize="Large"
+                    TextColor="#F2D985"
+                    VerticalTextAlignment="Center"
+                    HorizontalTextAlignment="Center"
+                    BackgroundColor="Transparent"
+                    HeightRequest="50"
+                    WidthRequest="200"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    FontFamily="Cinzel"
+                    />
+
+                <Entry
+                   Keyboard="Chat"
+                    Placeholder="- - - - - - - - - - - - - - - - - - - - - - - - - - - - -"
+                    x:Name="diner" PlaceholderColor="#F2D985" TextColor="WhiteSmoke"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    VerticalTextAlignment="Center"
+                    HorizontalTextAlignment="Center"
+                    HeightRequest="50"
+                    WidthRequest="250"
+                    BackgroundColor="Transparent"
+                    FontSize="Subtitle"
+                    FontFamily="Cinzel"
+                   />
+            </StackLayout>
+            <StackLayout  Orientation="Horizontal" Spacing="0">
+                <Image
+                    
+                    BackgroundColor="Transparent"
+                    HeightRequest="20"
+                    WidthRequest="20"
+                    VerticalOptions="StartAndExpand"
+                    HorizontalOptions="CenterAndExpand"
+                    />
+                
+            </StackLayout>
+            <StackLayout Padding="0,170,0,0" VerticalOptions="EndAndExpand">
+                <ImageButton Source="save01"
+                             BackgroundColor="Transparent"
+                             x:Name="savetotd"
+                             Clicked="Savemealsclicked"
+                             HeightRequest="60"
+                             WidthRequest="150" 
+
+                         />
+            </StackLayout>
+            <StackLayout>
+                <CollectionView x:Name="collectionView">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+
+                            
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

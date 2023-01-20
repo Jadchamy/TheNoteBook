@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TheNoteBookv8.BT9quotes"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundImageSource="backgroundf">
+    <ContentPage.Content>
+        <StackLayout>
+
+
+            <StackLayout Padding="115">
+                <Label
+                Text="TITLE OF THE DAY"
+                TextColor="#F2D985"
+                BackgroundColor="Transparent"
+                FontFamily="Cinzel"
+                FontSize="Medium"
+                FontAttributes="Bold"
+                VerticalOptions="StartAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                />
+            </StackLayout>
+            <StackLayout>
+                <Entry
+                    Keyboard="Chat"
+                    Placeholder="- - - - - - - - - - - -"
+                    FontSize="Header"
+                    FontAttributes="Italic"
+                    x:Name="totdEntry" PlaceholderColor="#F2D985" TextColor="WhiteSmoke"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="CenterAndExpand"
+                    VerticalTextAlignment="Center"
+                    HorizontalTextAlignment="Center"
+                    HeightRequest="50"
+                    WidthRequest="230"
+                    BackgroundColor="Transparent"
+                    
+                   />
+            </StackLayout>
+            <StackLayout Padding="0,340,0,20" VerticalOptions="EndAndExpand">
+                <ImageButton Source="save01"
+                             BackgroundColor="Transparent"
+                             x:Name="savetotd"
+                             Clicked="Savetotdclicked"
+                             HeightRequest="60"
+                             WidthRequest="150" 
+                             
+                               
+                         />
+                
+            </StackLayout>
+            <StackLayout VerticalOptions="End">
+                <CollectionView x:Name="collectionView">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Label/>
+
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </StackLayout>
+            
+                         
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

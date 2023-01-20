@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TheNoteBookv8.MainPage"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundImageSource="Splash3"
+             
+             >
+
+
+    <StackLayout>
+        
+            <ImageButton 
+	           BackgroundColor="Transparent"
+	           Clicked="Button_clicked" 
+               VerticalOptions="FillAndExpand"
+               Aspect="AspectFill"
+             
+            />
+        
+        <StackLayout>
+            <Label 
+             Padding="0,0,0,50"
+             Text="Tap Anywhere!"
+             TextColor="DarkGray"
+             FontAttributes="Italic"
+             FontSize="Small"
+             HorizontalOptions="CenterAndExpand"
+             VerticalOptions="EndAndExpand"
+            />
+        </StackLayout>
+          
+    
+    </StackLayout>
+    
+    
+
+</ContentPage>
